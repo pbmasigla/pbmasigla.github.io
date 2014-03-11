@@ -159,3 +159,8 @@ section {
             display:inline;
             margin-right:40px;
         }
+
+.resumeLink{
+    font-family: 'Lato', sans-serif;
+    color:#8a29a6;
+}
