@@ -1,33 +1,8 @@
 <!DOCTYPE html>
-<head>
-	<style>
-		#stats{
-        position:absolute;
-        top:20px;
-        left:20px;
-      }
-
-      #stats DIV{
-        margin-bottom:5px;
-      }
-
-      #stats DIV LABEL{
-        display:inline-block;
-        width:200px;
-      }
-	</style>
-</head>
 <script src='vendor/three.js/build/three.min.js'></script>
-<script src="js/OculusBridge.min.js"></script>
 <script src='vendor/three.js/examples/js/controls/FirstPersonControls.js'></script>
 <script src='../threex.proceduralcity.js'></script>
-<body style='margin: 0px; background-color: #d8e7ff; overflow: hidden;'>
-
-<a id="logo" class="offline" href="https://github.com/Instrument/oculus-bridge"></a>
-    <div id="stats"></div>
-    <div id="viewport"></div>
-    
-    <script>
+<body style='margin: 0px; background-color: #d8e7ff; overflow: hidden;'><script>
 	var updateFcts	= [];
 	var scene	= new THREE.Scene();
 	scene.fog	= new THREE.FogExp2( 0xd0e0f0, 0.0025 );
