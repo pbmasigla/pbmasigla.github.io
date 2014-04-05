@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+    margin: 0; padding: 0; border: 0;
+}
+
+body {
+    font: 18px/30px Sans-serif; color: black;
+}
+
+section {
+    overflow-x: hidden; height: 993px;
+}
+
+#may_2014 { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#april { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#march { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#february { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#january { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#december { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#november { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#october { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#september { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#august { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#july { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#june { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#may_2013 { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}   
