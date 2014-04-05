@@ -1,23 +1,50 @@
-var scene = new THREE.Scene();
-var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
+/*Setting up camera, canvas, and scene*/
+var width = 400;
+var height = 300;
+
+var view_angle = 45;
+var aspect = width/height;
+var near = 0.1;
+var far = 10000;
+
+var $container = $('#container');
 
 var renderer = new THREE.WebGLRenderer();
-document.body.appendChild(renderer.domElement);
+var camera = new THREE.PerspectiveCamera(view_angle, aspect, near, far);
 
-var geometry = new THREE.CubeGeometry(1,1,1);
-var material = new THREE.MeshBasicMaterial({color: 0x00ff00});
-var cube = new THREE.Mesh(geometry, material);
-scene.add(cube);
+var scene = new THREE.Scene();
 
-camera.position.z = 5;
+scene.add(camera);
+camera.position.z = 300;
+renderer.setSize(width, height);
 
-var render = function () {
-	requestAnimationFrame(render);
+$container.append(renderer.domElement);
 
-	cube.rotation.x += 0.1;
-	cube.rotation.y += 0.1;
+/*Setting up shapes*/
+var radius = 50;
+var segments = 16;
+var rings = 16;
 
-	renderer.render(scene, camera);
-};
+/*Defining sphereMaterial*/
+var sphereMaterial = new THREE.MeshLambertMaterial({color:0xCC0000});
 
-render();
+var sphere = new THREE.Mesh(
+
+	new THREE.SphereGeometry(radius, segments, rings),
+
+	sphereMaterial
+);
+
+scene.add(sphere);
+
+/*Add point light!*/
+var pointLight = new THREE.PointLight(0xFFFFFF);
+
+pointLight.position.x = 10;
+pointLight.position.y = 50;
+pointLight.position.z = 130;
+
+scene.add(pointLight);
+
+renderer.render(scene, camera);
+
