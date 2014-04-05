@@ -89,7 +89,7 @@ function initGeometry(){
 
   // add some boxes.
   var boxTexture = new THREE.ImageUtils.loadTexture( "textures/blue_blue.jpg" );
-  for(var i = 0; i < 200; i++){
+  for(var i = 0; i < 500; i++){
     var material = new THREE.MeshLambertMaterial({ emissive:0x505050, map: boxTexture, color: 0xffffff});
     
     var height = Math.random() * 150+10;
