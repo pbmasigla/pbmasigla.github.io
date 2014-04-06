@@ -2,8 +2,10 @@ var renderer, camera;
 var scene, element;
 var ambient, point;
 var aspectRatio, windowHalf;
+var mouse, time;
 
 var controls;
+var clock;
 
 var useRift = false;
 
@@ -12,7 +14,6 @@ var riftCam;
 var boxes = [];
 var core = [];
 var dataPackets = [];
-var updateFcts = [];
 
 var ground, groundGeometry, groundMaterial;
 
@@ -32,21 +33,26 @@ for(var i = 0; i < 130; i++){
 
 
 function initScene() {
+  clock = new THREE.Clock();
+  mouse = new THREE.Vector2(0, 0);
 
   windowHalf = new THREE.Vector2(window.innerWidth / 2, window.innerHeight / 2);
   aspectRatio = window.innerWidth / window.innerHeight;
   
   scene = new THREE.Scene();  
 
-  var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.01, 3000)
-  camera.position.y = 80
+  camera = new THREE.PerspectiveCamera(45, aspectRatio, 1, 10000);
+  camera.useQuaternion = true;
+
+  camera.position.set(100, 150, 100);
+  camera.lookAt(scene.position);
 
   // Initialize the renderer
-  var renderer = new THREE.WebGLRenderer({
-      antialias: false
-  });
+  renderer = new THREE.WebGLRenderer({antialias:true});
+  renderer.setClearColor(0xdbf7ff);
   renderer.setSize(window.innerWidth, window.innerHeight);
-  document.body.appendChild(renderer.domElement);
+
+   scene.fog = new THREE.Fog(0xdbf7ff, 300, 700);
 
   element = document.getElementById('viewport');
   element.appendChild(renderer.domElement);
@@ -57,18 +63,18 @@ function initScene() {
 
 function initLights(){
 
-  var light = new THREE.HemisphereLight(0xfffff0, 0x101020, 1.25);
-  light.position.set(0.75, 1, 0.25);
-  scene.add(light);
+  ambient = new THREE.AmbientLight(0x222222);
+  scene.add(ambient);
+
+  point = new THREE.DirectionalLight( 0xffffff, 1, 0, Math.PI, 1 );
+  point.position.set( -250, 250, 150 );
+  
+  scene.add(point);
 }
 
+var floorTexture;
 function initGeometry(){
 
-  var material = new THREE.MeshBasicMaterial({
-    color: 0x101018
-  })
-
-  
   floorTexture = new THREE.ImageUtils.loadTexture( "textures/tile.jpg" );
   floorTexture.wrapS = floorTexture.wrapT = THREE.RepeatWrapping; 
   floorTexture.repeat.set( 50, 50 );
@@ -137,7 +143,6 @@ function initGeometry(){
     });
     scene.add(box);
   }
-}
 }
 
 
