@@ -160,10 +160,4 @@ THREEx.ProceduralCity = function () {
         return canvas2;
     }
 }
-function init(){
-	
-}
 
-window.onLoad(){
-	init();
-}
