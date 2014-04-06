@@ -1,5 +1,4 @@
 // from @mrdoob http://www.mrdoob.com/lab/javascript/webgl/city/01/
-
 var updateFcts = [];
 var scene = new THREE.Scene();
 scene.fog = new THREE.FogExp2(0xd0e0f0, 0.0025);
@@ -160,4 +159,3 @@ THREEx.ProceduralCity = function () {
         return canvas2;
     }
 }
-
