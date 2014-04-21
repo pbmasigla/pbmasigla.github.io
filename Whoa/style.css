@@ -11,7 +11,14 @@ body {
 }
 
 section {
-    overflow-x: hidden; height: 993px;
+    overflow-x: hidden; height: 700px;
+}
+
+.kris_patty{
+    position:fixed;
+    left:40%;
+    bottom:50px;
+    z-index:100;
 }
 
 #may_2014 { 
@@ -56,25 +63,25 @@ section {
 
 #september { 
     /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
-    background: white;
+    background: url("images/cpork.png");;
 }
 
 #august { 
     /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
-    background: white;
+    background: url("images/running.png");
 }
 
 #july { 
     /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
-    background: white;
+    background: url("images/sushi.png");
 }
 
 #june { 
     /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
-    background: white;
+    background: url("images/concert.png");
 }
 
 #may_2013 { 
     /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
-    background: white;
+    background: url("images/cspac_bg.png");
 }   

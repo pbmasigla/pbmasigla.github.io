@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+    margin: 0; padding: 0; border: 0;
+}
+
+body {
+    font: 18px/30px Sans-serif; color: black;
+}
+
+section {
+    overflow-x: hidden; height: 700px;
+}
+
+.image{
+    height:250px;
+}
+
+.kris_patty{
+    position:fixed;
+    left:40%;
+    bottom:50px;
+    z-index:100;
+}
+
+#may_2014 { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+    .march_1{
+        position:relative;
+        top:45px;
+        left:55px;
+        z-index:-9999px;
+    }
+
+#april { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: white;
+}
+
+#march { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/teal.png");
+}
+
+#february { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/pink.png");
+}
+
+#january { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/wet_snow.png");
+}
+
+#december { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/christmas.jpg");
+}
+
+#november { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/food.png");
+}
+
+#october { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/blue.png");
+}
+
+#september { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/purty_wood.png");;
+}
+
+#august { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/wall4.png");
+}
+
+#july { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/lime_green.png");
+}
+
+#june { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/starring.png");
+}
+
+#may_2013 { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url("images/notebook.png");
+}   
