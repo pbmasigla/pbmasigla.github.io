@@ -10,63 +10,37 @@ $(document).ready(function(){
   });
     
     /*intro scripts*/
-    scrollorama.animate('#intro h1',{
-      duration:200, property:'left', end:-860
+    scrollorama.animate('.may_1',{
+      duration:200, property:'right', end:-3100
     });
 
-    scrollorama.animate('#intro h2',{
-      duration:300, property: 'right', end:-1600
-    });
-     
-     /*contact scripts*/
-     scrollorama.animate('#contact .linkedin img',{
-      delay:1000, duration: 990, property:'left', start:-1000, end:0
+    scrollorama.animate('.may_2',{
+      duration:200, property: 'left', end: -860
     });
 
-     scrollorama.animate('#contact .gmail img',{
-      delay:1000, duration: 990, property:'bottom', start:-1000, end:0
+    scrollorama.animate('.april_1',{
+      delay:650, duration:200, property:'left', start:150, end:-100
     });
 
-     scrollorama.animate('#contact .instagram img',{
-      delay:1000, duration: 990, property:'top', start:-1000, end:0
+    scrollorama.animate('.april_2',{
+      delay:650, duration:200, property:'left', start:100, end:-70
     });
 
-     scrollorama.animate('#contact .twitter img',{
-      delay:1000, duration: 990, property:'bottom', start:-1000, end:0
+    scrollorama.animate('.april_3',{
+      delay:650, duration:200, property:'top', start:100, end:-70
     });
 
-     scrollorama.animate('#contact .facebook img',{
-      delay:1000, duration: 990, property:'right', start:-1000, end:0
+    scrollorama.animate('.april_4',{
+      delay:650, duration:200, property:'right', start:100, end:-20
+    });
+    scrollorama.animate('.april_5',{
+      delay:600, duration:200, property:'left', start:800, end:950
     });
 
-     /*Places scripts*/
-     scrollorama.animate('#stuff .dosa img',{
-      delay:300, duration:700, property:'left', start:-900, end:0
-
-     });
-
-     scrollorama.animate('#stuff .dj img',{
-      delay:300, duration:700, property:'top', start:-900, end:0
-     });
-
-     scrollorama.animate('#stuff .fca img',{
-      delay:300, duration:700, property:'top', start:-900, end:0
-     });
-
-     scrollorama.animate('#stuff .techchange img',{
-      delay:300, duration:700, property:'right', start:-900, end:0
-     });
-
-     scrollorama.animate('#stuff .strongerph img',{
-      delay:300, duration:700, property:'rotate', start:40, end:0
-     });
-
-     scrollorama.animate('#stuff .sagiving img',{
-      delay:300, duration:700, property:'rotate', start:-40, end:00
-     });
-
-     /*March Scripts*/
-     scrollorama.animate('#may_2014 .march_1 img',{
-       duration: 990, property:'left', start:-1000, end:0
+    scrollorama.animate('.march_1',{
+      delay:1300, duration:200, property:'left', start:170, end:-70
+    });
+    scrollorama.animate('.march_2',{
+      delay:1300, duration:200, property:'right', start:100, end:-20
     });
 });

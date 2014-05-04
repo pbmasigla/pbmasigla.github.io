@@ -18,34 +18,92 @@ section {
     height:250px;
 }
 
-.kris_patty{
-    position:fixed;
-    left:40%;
-    bottom:50px;
-    z-index:100;
-}
 
 #may_2014 { 
     /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
     background: white;
 }
 
-    .march_1{
-        position:relative;
-        top:45px;
-        left:55px;
+    .may_1{
+        position: relative; top: 160px; right:-1000px;
         z-index:-9999px;
+        transform:rotate(7deg);
+        -ms-transform:rotate(7deg); /* IE 9 */
+        -webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
+    }
+
+    .may_2{
+        position: relative; top: 45px; left: 55px;
+        z-index:-9999px;
+        transform:rotate(-7deg);
+        -ms-transform:rotate(-7deg); /* IE 9 */
+        -webkit-transform:rotate(-7deg); /* Opera, Chrome, and Safari */
     }
 
 #april { 
     /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
-    background: white;
+    background: url('images/orange.png');
 }
+
+    .april_1{
+        /*position:relative; top: -10px; left:100px;*/
+        z-index:-9999px;
+        transform:rotate(-7deg);
+        -ms-transform:rotate(-7deg); /* IE 9 */
+        -webkit-transform:rotate(-7deg); /* Opera, Chrome, and Safari */
+    }
+
+    .april_2{
+        position:relative; top: 100px; left:55px;
+        z-index:-9999px;
+        transform:rotate(7deg);
+        -ms-transform:rotate(7deg); /* IE 9 */
+        -webkit-transform:rotate(7deg);
+    }
+
+    .april_3{
+        position:absolute; top: 60px; right:100px;
+         z-index:-9999px;
+        transform:rotate(10deg);
+        -ms-transform:rotate(10deg); /* IE 9 */
+        -webkit-transform:rotate(10deg);
+    }
+
+    .april_4{
+        position:absolute; top: 300px; right:100px;
+         z-index:-9999px;
+        transform:rotate(-15deg);
+        -ms-transform:rotate(-15deg); /* IE 9 */
+        -webkit-transform:rotate(-15deg);
+    }
+
+    .april_5{
+         position:absolute; top: 200px; right:300px;
+         z-index:-9999px;
+        transform:rotate(-5deg);
+        -ms-transform:rotate(-5deg); /* IE 9 */
+        -webkit-transform:rotate(-5deg);
+    }
 
 #march { 
     /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
     background: url("images/teal.png");
 }
+    .march_1{
+        position:absolute; top:50px;
+        z-index:-9999px;
+        transform:rotate(-10deg);
+        -ms-transform:rotate(-10deg); /* IE 9 */
+        -webkit-transform:rotate(-10deg);
+    }
+
+    .march_2{
+        position:absolute; top:380px; right:50px;
+        z-index:-9999px;
+        transform:rotate(10deg);
+        -ms-transform:rotate(10deg); /* IE 9 */
+        -webkit-transform:rotate(10deg);
+    }
 
 #february { 
     /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
