@@ -21,23 +21,12 @@ section {
 
 #may_2014 { 
     /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
-    background: white;
+    background: url('images/may_2014_bg.jpg');
 }
 
-    .may_1{
-        position: absolute; top: 160px; right:-1000px;
-        z-index:-9999px;
-        transform:rotate(7deg);
-        -ms-transform:rotate(7deg); /* IE 9 */
-        -webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
-    }
-
-    .may_2{
-        position: absolute; top: 45px; left: 55px;
-        z-index:-9999px;
-        transform:rotate(-7deg);
-        -ms-transform:rotate(-7deg); /* IE 9 */
-        -webkit-transform:rotate(-7deg); /* Opera, Chrome, and Safari */
+    .may_2014_house{
+        position:absolute;
+        right:60px;
     }
 
 #april { 
@@ -559,7 +548,7 @@ section {
     }
 
     .may_2{
-        position:absolute; top:190px; right:60px;
+        position:absolute; top:380px; right:460px;
         z-index:-9999px;
         transform:rotate(-4deg);
         -ms-transform:rotate(-4deg); /* IE 9 */
@@ -567,7 +556,7 @@ section {
     }
 
     .may_3{
-        position:absolute; top:190px; right:60px;
+        position:absolute; top:390px; left:100px;
         z-index:-9999px;
         transform:rotate(-4deg);
         -ms-transform:rotate(-4deg); /* IE 9 */
@@ -931,6 +920,36 @@ section {
 }
 
 .april_div h2{
+    font-family: 'Roboto slab';
+    line-height:22px;
+    opacity:2;
+}
+
+/*Divs*/
+.may_2014_div{
+    background: white;
+    opacity: .8;
+    padding: 20px;
+    position: absolute;
+    top: 40px;
+    width: 700px;
+    left: 80px;
+}    
+
+.may_2014_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+}
+
+.may_2014_div h1{
+    font-family: 'Roboto slab';
+    line-height:4px;
+    opacity:1;
+}
+
+.may_2014_div h2{
     font-family: 'Roboto slab';
     line-height:22px;
     opacity:2;

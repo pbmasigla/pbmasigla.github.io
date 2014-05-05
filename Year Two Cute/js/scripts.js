@@ -10,16 +10,11 @@ $(document).ready(function(){
   var scrollorama = $.scrollorama({
     blocks:'.curtains'
   });
-    
-    /*May Scripts*/
-    scrollorama.animate('.may_1',{
-      duration:200, property:'right', end:-3100
-    });
 
-    scrollorama.animate('.may_2',{
-      duration:200, property: 'left', end: -760
+    /*May 2014 Scripts*/
+    scrollorama.animate('.may_2014_house',{
+      duration:600, property:'bottom', start:290, end:-300
     });
-
 
     /*April Scripts*/
     scrollorama.animate('.april_1',{
@@ -219,5 +214,16 @@ $(document).ready(function(){
     });
     // scrollorama.animate('.june_9',{
     //   delay:10400, duration:200, property:'right', start:100, end:-30
+    // });
+
+    // /*May 2013 Scripts*/
+    // scrollorama.animate('.may_1',{
+    //   delay:11400, duration:200, property:'right', start:1000, end:-70
+    // });
+    // scrollorama.animate('.may_2',{
+    //   delay:11400, duration:200, property:'left', start:1000, end:-90
+    // });
+    // scrollorama.animate('.may_3',{
+    //   delay:11400, duration:200, property: 'top',  start:420, end:-300
     // });
 });
