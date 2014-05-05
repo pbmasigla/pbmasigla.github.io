@@ -573,3 +573,361 @@ section {
         -ms-transform:rotate(-4deg); /* IE 9 */
         -webkit-transform:rotate(-4deg);
     }
+
+
+/*Divs*/
+.may_2013_div{
+    background: black;
+    opacity: .8;
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    width: 900px;
+    left: 30px;
+}
+
+.may_2013_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+    color:white;
+}
+
+.may_2013_div h1{
+    font-family: 'Roboto slab';
+    line-height:4px;
+    opacity:1;
+    color:white;
+}
+
+.may_2013_div h2{
+    font-family: 'Roboto slab';
+    line-height:22px;
+    opacity:2;
+    color:white;
+}
+
+/*Divs*/
+.june_div{
+    background: white;
+    opacity: .7;
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    left: 336px;
+    top: 87px;
+}    
+
+.june_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+}
+
+.june_div h1{
+    font-family: 'Roboto slab';
+}
+
+.july_div{
+    background: white;
+    opacity: .8;
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    left: 336px;
+    top: 67px;
+}    
+
+.july_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+}
+
+.july_div h1{
+    font-family: 'Roboto slab';
+}
+
+.july_div h2{
+    font-family: 'Roboto slab';
+}
+
+/*Divs*/
+.august_div{
+    background: black;
+    opacity: .7;
+    padding: 20px;
+    position: absolute;
+    top: 11px;
+    width: 1147px;
+    left: 45px;
+}    
+
+.august_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+    color:white;
+}
+
+.august_div h1{
+    font-family: 'Roboto slab';
+    color:white;
+    line-height:4px;
+}
+
+.august_div h2{
+    font-family: 'Roboto slab';
+    color:white;
+    line-height:22px;
+}
+
+/*Divs*/
+.september_div{
+    background: white;
+    opacity: .8;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    width: 600px;
+    right:104px;
+}    
+
+.september_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+}
+
+.september_div h1{
+    font-family: 'Roboto slab';
+    line-height:4px;
+    opacity:1;
+}
+
+.september_div h2{
+    font-family: 'Roboto slab';
+    line-height:22px;
+    opacity:2;
+}
+
+/*Divs*/
+.october_div{
+    background: white;
+    opacity: .8;
+    padding: 20px;
+    position: absolute;
+    top: 283px;
+    width: 1187px;
+    left:20px;
+}    
+
+.october_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+}
+
+.october_div h1{
+    font-family: 'Roboto slab';
+    line-height:4px;
+    opacity:1;
+}
+
+.october_div h2{
+    font-family: 'Roboto slab';
+    line-height:22px;
+    opacity:2;
+}
+
+/*Divs*/
+.november_div{
+    background: white;
+    opacity: .8;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    width: 600px;
+    right:50px;
+}    
+
+.november_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+}
+
+.november_div h1{
+    font-family: 'Roboto slab';
+    line-height:4px;
+    opacity:1;
+}
+
+.november_div h2{
+    font-family: 'Roboto slab';
+    line-height:22px;
+    opacity:2;
+}
+
+/*Divs*/
+.december_div{
+    background: black;
+    opacity: .8;
+    padding: 20px;
+    position: absolute;
+    top: 40px;
+    width: 900px;
+    left: 170px;
+}
+
+.december_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+    color:white;
+}
+
+.december_div h1{
+    font-family: 'Roboto slab';
+    line-height:4px;
+    opacity:1;
+    color:white;
+}
+
+.december_div h2{
+    font-family: 'Roboto slab';
+    line-height:22px;
+    opacity:2;
+    color:white;
+}
+
+/*Divs*/
+.january_div{
+    background: black;
+    opacity: .8;
+    padding: 20px;
+    position: absolute;
+    top: 80px;
+    width: 750px;
+    left: 20px;
+}
+
+.january_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+    color:white;
+}
+
+.january_div h1{
+    font-family: 'Roboto slab';
+    line-height:4px;
+    opacity:1;
+    color:white;
+}
+
+.january_div h2{
+    font-family: 'Roboto slab';
+    line-height:22px;
+    opacity:2;
+    color:white;
+}
+
+/*Divs*/
+.february_div{
+    background: white;
+    opacity: .8;
+    padding: 20px;
+    position: absolute;
+    top: 284px;
+    width: 660px;
+    left: 280px;
+}    
+
+.february_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+}
+
+.february_div h1{
+    font-family: 'Roboto slab';
+    line-height:4px;
+    opacity:1;
+}
+
+.february_div h2{
+    font-family: 'Roboto slab';
+    line-height:22px;
+    opacity:2;
+}
+
+/*Divs*/
+.march_div{
+    background: white;
+    opacity: .8;
+    padding: 20px;
+    position: absolute;
+    top: 60px;
+    width: 550px;
+    left: 370px;
+}    
+
+.march_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+}
+
+.march_div h1{
+    font-family: 'Roboto slab';
+    line-height:4px;
+    opacity:1;
+}
+
+.march_div h2{
+    font-family: 'Roboto slab';
+    line-height:22px;
+    opacity:2;
+}
+
+/*Divs*/
+.april_div{
+    background: white;
+    opacity: .8;
+    padding: 20px;
+    position: absolute;
+    top: 70px;
+    width: 500px;
+    left: 318px;
+}    
+
+.april_div p{
+    font-family: 'Roboto slab';
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+}
+
+.april_div h1{
+    font-family: 'Roboto slab';
+    line-height:4px;
+    opacity:1;
+}
+
+.april_div h2{
+    font-family: 'Roboto slab';
+    line-height:22px;
+    opacity:2;
+}
