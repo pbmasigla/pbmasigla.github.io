@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 @font-face {
     font-family: Museo Slab;
     src: url(fonts/museo-slab.otf);
@@ -178,8 +179,8 @@
 
 
 /*CONTACT*/
-  #contact{
-    background:white;
+  #contact_div{
+    top:0;
   }
 
   #contact_div > h1{
@@ -187,6 +188,7 @@
     font-family: BrandonGrotesque-Bold, Futura, Verdana, serif;
     font-size:40px;
     font-weight:300;
+    margin-top:0px;
     margin-bottom:0px;
     text-align:center;
     color:#336699;
@@ -206,5 +208,75 @@
     font-size: 17px;
     font-weight:300;
     margin-top:5px;
-    color: #666666;
+    color: #FFFFFF;
   } 
+
+
+  #terminal_input{
+    margin-top:155px;
+    width:600px;
+    height:400px;
+  }
+
+/*
+*Console
+*/
+  #console {
+    background-color: #242424;
+    /* display: none; */
+    height: 450px;
+    margin: 50px 0 -300px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inconsolata' ;
+  }
+
+  label {
+    display: block;
+    float: left;
+    width: 33%;
+  }
+
+  input, input:focus {
+    float: right;
+    width: 66%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color:white;
+    font-family: 'Inconsolata' ;
+    font-size:14px;
+  }
+
+  input {
+    animation: blink-empty 1s infinite;
+    border-left: transparent solid 1px;
+  }
+
+  @keyframes blink-empty {
+    50% {border-left: 1px solid #000;}
+  }
+
+  #output {
+    clear: both;
+    font-family: monospace;
+    line-height: 25px;
+    font-size: 14px;
+  }
+
+
+  .greeting {
+    color: #39d1b4;
+  }
+
+  .dolla {
+    color: #39d1b4;
+  }
+
+  #window {
+    color: #fff;
+    font-weight: 800;
+    height: 460px;
+    padding:11px;
+  }
