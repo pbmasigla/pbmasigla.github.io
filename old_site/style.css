@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+    margin: 0; padding: 0; border: 0;
+}
+
+body {
+    font: 18px/30px Sans-serif; color: #fff;
+}
+
+section {
+    overflow-x: hidden; height: 993px;
+}
+
+#intro { 
+    /*background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; */
+    background: url(images/icons2-blue.jpg);
+}
+
+    #intro h1 {
+        width: 858px; height: 290px;
+        background: url(images/hello_sticker.png) no-repeat; text-indent: -9999px;
+        position: relative; top: 45px; left: 55px;
+        z-index:-9999px;
+    }
+
+    #intro h2{
+        width: 200px; height: 200px;
+        background: url(images/profile.png) no-repeat; text-indent: -9999px;
+        position: relative; top: -160px; right:-400px;
+        z-index:1;
+    }
+
+    #intro p {
+        position: relative; top: -150px; left: 300px;
+        width: 560px; margin: 0 0 30px 0;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    
+#stuff {
+    /*background: #603e2d url(images/spoon-bg.jpg);*/
+    background: url(images/cork-background.jpg) left repeat;
+    position: relative; 
+    font-family: 'Walter Turncoat', cursive;
+}
+
+    #stuff ul{
+        list-style-type: none
+    }
+
+    #stuff li{
+        display:inline;
+    }
+
+    #stuff .places_list{
+        margin-top:30px;
+    }
+
+    #stuff .works_list{
+        margin-left:70px;
+    }
+
+    #stuff .places{
+        position: relative; top: 30px; left: 445px;
+        width: 350px; height: 80px;
+        background: url(images/post_its/post-it-title-places.png) no-repeat; text-indent: -9999px;
+        background-size:350px 80px;
+        z-index:-9999px;
+    }
+
+    #stuff .dosa img{
+        width: 300px; height: 200px;
+    }
+
+    #stuff .dj img{
+        width: 290px; height: 210px;
+    }
+
+    #stuff .fca img{
+        width: 260px; height: 200px;
+    }
+
+    #stuff .techchange img{
+        width: 300px; height: 210px;
+    }
+
+    #stuff .works{
+        position: relative; top: 10x; left: 190px;
+        width: 350px; height: 80px;
+        background: url(images/post_its/post-it-title-works.png) no-repeat; text-indent: -9999px;
+        background-size:350px 80px;
+        z-index:-9999px;
+    }
+
+    #stuff .strongerph img{
+        width: 300px; height: 210px;
+    }
+
+    #stuff .sagiving img{
+        width: 300px; height: 200px;
+    }
+
+    #stuff .known{
+        margin-left:670px;
+        margin-top:-300px;
+        width: 540px; height: 430px;
+        background: url(images/post_its/post-it-known.png) no-repeat; text-indent: -9999px;
+        background-size: 540px 430px;
+    }
+
+    #stuff .places_list{
+        z-index: 1;
+        top:30px;
+    }
+
+
+#contact{
+        background: url(images/cubes-white.jpg) left repeat;
+}
+        #contact h2{
+            color:#8a29a6;
+            position:relative; top:120px;
+            left:100px;
+            font-family: 'Roboto Slab', serif; font-size:50px;
+            margin: 0 50px 10px 0;
+        }
+
+        #contact p{
+            position: relative;top:120px;
+            left: 110px;
+            color:#63686c;
+            margin: 0 50px 35px 0;
+            width:1000px;
+            font-family: 'Lato', sans-serif;
+        }
+
+        #contact img{
+            height:100px; width:100px;
+        }
+
+        #contact h3{
+            position:relative;
+            top:100px;
+            width:100px;
+        }
+
+        #contact ul{
+            list-style-type: none;
+            margin-top:140px;
+            margin-left:200px;
+        }
+
+        #contact li{
+            width:100px;
+            height:100px;
+            display:inline;
+            margin-right:40px;
+        }
+
+.resumeLink{
+    font-family: 'Lato', sans-serif;
+    color:#8a29a6;
+}

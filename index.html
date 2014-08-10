@@ -1,83 +1,357 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8" />
-<link rel="shortcut icon" href="images/favicon.ico">
-<title>Hey, I'm Patty!</title>
+    <head>
+        <title>//Patricia Masigla</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="js/fullpage/jquery.fullPage.css" />
+    </head>
 
-<link href="style.css" rel="stylesheet" />
-<link href="js/curtain.css" rel="stylesheet" />
+    <body>
+        <div id="fullpage">
 
-<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-<script src="js/curtain.js"></script>
-<script src="js/jquery.scrollorama.js"></script>
-<script src="js/scripts.js"></script>
+            <!--HI MY NAME IS PATTY-->
+            <div class="section" id="hi">
+               <div id="video-bg">
+                    <video autoplay="autplay" loop poster="media/front_vid_still.png" id="bgvid" muted="muted" >
+                        <source src="media/pbmasigla.mp4" type="video/mp4">
+                    </video>
 
-</head>
-<body>
-
-<ul class="curtains">
-	<li>
-		<section id="intro">
-			<h1>Hey, I'm Patty</h1>
-			<h2>Profile</h2>
-
-			<p>Hey, my name is Patricia Masigla, but call me Patty! I'm currently a junior at the University of Maryland, College Park. I have a thing for technology, and I like messing around with whatever I can learn.</p>
-
-			<p>I'm interested in learning whatever I can, whether it be new PHP, some Node.js, Android development, and possibly even some SQL. I'm trying something new everyday, and I'm excited for what else tech has to offer.</p>
-
-			<p>Wanna learn more about me? Check out some of my experience/things I've done, and more about me.</p>
-
-		</section>
-	</li>
-
-	<li>
-		<section id="stuff">
-
-			<!-- <img class="places" src="images/post_its/post-it-title.png"> -->
-			<h2 class="places"></h2>
-
-			<ul class="places_list">
-				<li class="dosa"><img src="images/post_its/dosa_postit.png"></li>
-				<li class="dj"><img src="images/post_its/dj_postit.png"></li>
-				<li class="fca"><img src="images/post_its/fca_postit.png"></li>
-				<li class="techchange"><img src="images/post_its/techchange_postit.png"></li>
-			</ul>
-
-			<h2 class="works"></h2>
-
-			<ul class="works_list">
-				<li class="strongerph"><a href="http://www.strongerph.org"><img src="images/post_its/strongerph_postit.png"></a></li>
-				<li class="sagiving"><a href="http://www.sagiving.umd.edu/Giving/"><img src="images/post_its/sagiving_postit.png"></a></li>
-			</ul>
-
-			<h2 class="known"></h2>
+                </div>
+                <div id="my_name_is">
+                    <span id="typed"></span>
+                </div>
+            </div>
 
 
-		</section>
-	</li>
+            <!--ABOUT-->
+            <div class="section">
 
-	<li>
-		<section id="contact">
-			<h2>More About Me</h2>
-			<p>I hail from the Philippines, but I grew up in central New Jersey, so you might hear me say "yes-tuh-day" every now and then.  I'm an avid snowboarder, basketball player, tennis player, runner, photographer/videographer and more. I'm interested in anything and everything new in the world of technology, from Android development to Ruby on Rails. Currently, I've been dabbling in more testing and QA of the software development lifecycle, but I'm open to anything new!</p>
-
-			<h2>Let's Get In Touch!</h2>
-			<p>Check out my <a class="resumeLink" href="Patricia Masigla - Resume.pdf">resume</a>  or my <a class="resumeLink" href="memo_book">memo book</a> for more detailed work experience information. Feel free to contact me in any of the following ways. I guarantee a response.</p>
-
-			<ul>
-				<li class="linkedin"><a href="http://www.linkedin.com/pub/patricia-masigla/75/875/976"><img src="images/icons/linkedin-icon.png"/></a></li>
-				<li class="gmail"><a href="mailto:patricia.masigla@gmail.com"><img src="images/icons/gmail-icon.png"/></a></li>
-				<li class="instagram"><a href="http://instagram.com/therealpatatohead"><img src="images/icons/instagram-2-icon.png"/></a></li>
-				<li class="twitter"><a href="https://twitter.com/patatohead"><img src="images/icons/twitter_icon.png"/></a></li>
-				<li class="facebook"><a href="https://www.facebook.com/patricia.masigla"><img src="images/icons/facebook-icon.png"/></a></li>
-			</ul>
+                <!--PORTFOLIO-->
+                <div class="slide" data-anchor="0">
+                    <div class="about_slider" id="portfolio_div">
+                        <h1>Portfolio</h1>
+                        <p>Easy to use. Configurable and customizable.</p>
+                    </div>
+                </div>
 
 
-		</section>
-	</li>
-</ul>
+                <!--ABOUT ME-->
+                <div class="slide active" data-anchor="1">
+                    <div class="about_slider active" id="about_div">
+                        <h1>About Me</h1>
+                        <p>Hey, my name is Patricia Masigla, but call me Patty! I hail from Central Jersey, but I'm currently a senior at the University of Maryland, College Park. I have a thing for technology, and I like messing around with whatever I can learn. I aim to create simple, easy to use designs and easy to maneuver products. I aim to build environments with that can deliver seamless user experiences.</p>
 
-</body>
+                        <br/>
+
+                        <h1>On The Side</h1>
+                        <p>On the side, I'm an athlete of multiple of sports and an adventurer. I always have my camera ready to record my adventures, and I compile them into videos for my own memories. I'm a camera geek, shoe head, sushi loving person!</p>
+                    </div>
+                </div>
+
+                <!--WORK EXPERIENCE-->
+                <div class="slide" data-anchor="2" >
+                    <div class="about_slider" id="work_div">
+                        <h1>Work Experience</h1>
+                        <p>Easy to use. Configurable and customizable.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--CONTACT-->
+            <div class="section" id="contact">
+                CONTACT
+            </div>
+
+
+        </div>
+    </body>
+
 </html>
+
+<!--JS SCRIPTS HERE-->
+<script src="js/jquery.js"></script>
+<script src="js/typed.js"></script>
+<script type="text/javascript" src="js/fullpage/jquery.fullPage.js"></script>
+<script src="js/fullpage/vendors/jquery.easings.min.js"></script>
+<script type="text/javascript" src="js/fullpage/vendors/jquery.slimscroll.min.js"></script>
+
+<script>
+!function($){
+
+    "use strict";
+
+    var Typed = function(el, options){
+
+        // chosen element to manipulate text
+        this.el = $(el);
+        // options
+        this.options = $.extend({}, $.fn.typed.defaults, options);
+
+        // text content of element
+        this.text = this.el.text();
+
+        // typing speed
+        this.typeSpeed = this.options.typeSpeed;
+
+        // amount of time to wait before backspacing
+        this.backDelay = this.options.backDelay;
+
+        // input strings of text
+        this.strings = this.options.strings;
+
+        // character number position of current string
+        this.strPos = 0;
+
+        // current array position
+        this.arrayPos = 0;
+
+        // current string based on current values[] array position
+        this.string = this.strings[this.arrayPos];
+
+        // number to stop backspacing on.
+        // default 0, can change depending on how many chars
+        // you want to remove at the time
+        this.stopNum = 0;
+
+        // Looping logic
+        this.loop = this.options.loop;
+        this.loopCount = this.options.loopCount;
+        this.curLoop = 1;
+        if (this.loop === false){
+            // number in which to stop going through array
+            // set to strings[] array (length - 1) to stop deleting after last string is typed
+            this.stopArray = this.strings.length-1;
+        }
+        else{
+            this.stopArray = this.strings.length;
+        }
+
+        // All systems go!
+        this.init();
+        this.build();
+    }
+
+        Typed.prototype =  {
+
+            constructor: Typed
+
+            , init: function(){
+                // begin the loop w/ first current string (global self.string)
+                // current string will be passed as an argument each time after this
+                this.typewrite(this.string, this.strPos);
+            }
+
+            , build: function(){
+                this.el.after("<span id=\"typed-cursor\">|</span>");
+            }
+
+            // pass current string state to each function
+            , typewrite: function(curString, curStrPos){
+
+                // varying values for setTimeout during typing
+                // can't be global since number changes each time loop is executed
+                var humanize = Math.round(Math.random() * (100 - 30)) + this.typeSpeed;
+                var self = this;
+
+                // ------------- optional ------------- //
+                // backpaces a certain string faster
+                // ------------------------------------ //
+                // if (self.arrayPos == 1){
+                //  self.backDelay = 50;
+                // }
+                // else{ self.backDelay = 500; }
+
+                // containg entire typing function in a timeout
+                setTimeout(function() {
+
+                    // make sure array position is less than array length
+                    if (self.arrayPos < self.strings.length){
+
+                        // start typing each new char into existing string
+                        // curString is function arg
+                        self.el.text(self.text + curString.substr(0, curStrPos));
+
+                        // check if current character number is the string's length
+                        // and if the current array position is less than the stopping point
+                        // if so, backspace after backDelay setting
+                        if (curStrPos > curString.length && self.arrayPos < self.stopArray){
+                            clearTimeout(clear);
+                            var clear = setTimeout(function(){
+                                self.backspace(curString, curStrPos);
+                            }, self.backDelay);
+                        }
+
+                        // else, keep typing
+                        else{
+                            // add characters one by one
+                            curStrPos++;
+                            // loop the function
+                            self.typewrite(curString, curStrPos);
+                            // if the array position is at the stopping position
+                            // finish code, on to next task
+                            if (self.loop === false){
+                                if (self.arrayPos === self.stopArray && curStrPos === curString.length){
+                                    // animation that occurs on the last typed string
+                                    // fires callback function
+                                }
+                            }
+                        }
+                    }
+                    // if the array position is greater than array length
+                    // and looping is active, reset array pos and start over.
+                    else if (self.loop === true && self.loopCount === false){
+                        self.arrayPos = 0;
+                        self.init();
+                    }
+                        else if(self.loopCount !== false && self.curLoop < self.loopCount){
+                            self.arrayPos = 0;
+                            self.curLoop = self.curLoop+1;
+                            self.init();
+                        }
+
+                // humanized value for typing
+                }, humanize);
+
+            }
+
+            , backspace: function(curString, curStrPos){
+
+                // varying values for setTimeout during typing
+                // can't be global since number changes each time loop is executed
+                var humanize = Math.round(Math.random() * (100 - 30)) + this.typeSpeed;
+                var self = this;
+
+                setTimeout(function() {
+
+                    // ----- this part is optional ----- //
+                    // check string array position
+                    // on the first string, only delete one word
+                    // the stopNum actually represents the amount of chars to
+                    // keep in the current string. In my case it's 14.
+                     if (self.arrayPos == 1, 2, 3, 4, 5, 6, 7){
+                        self.stopNum = 22;
+                     }
+                    //every other time, delete the whole typed string
+                     //else{
+                        //self.stopNum = 0;
+                     //}
+
+                    // ----- continue important stuff ----- //
+                    // replace text with current text + typed characters
+                    self.el.text(self.text + curString.substr(0, curStrPos));
+
+                    // if the number (id of character in current string) is
+                    // less than the stop number, keep going
+                    if (curStrPos > self.stopNum){
+                        // subtract characters one by one
+                        curStrPos--;
+                        // loop the function
+                        self.backspace(curString, curStrPos);
+                    }
+                    // if the stop number has been reached, increase
+                    // array position to next string
+                    else if (curStrPos <= self.stopNum){
+                        clearTimeout(clear);
+                        var clear = self.arrayPos = self.arrayPos+1;
+                        // must pass new array position in this instance
+                        // instead of using global arrayPos
+                        self.typewrite(self.strings[self.arrayPos], curStrPos);
+                    }
+
+                // humanized value for typing
+                }, humanize);
+
+            }
+
+        }
+
+    $.fn.typed = function (option) {
+        return this.each(function () {
+          var $this = $(this)
+            , data = $this.data('typed')
+            , options = typeof option == 'object' && option
+          if (!data) $this.data('typed', (data = new Typed(this, options)))
+          if (typeof option == 'string') data[option]()
+        });
+    }
+
+}(window.jQuery);
+
+
+$(function(){
+
+    $("#typed").typed({
+        strings: ["Hey! I'm Patricia, and my friends call me Patty =)", "Hey! I'm Patricia, and I'm a student at the University of Maryland, College Park.", "Hey! I'm Patricia, and I'm a programmer.", "Hey! I'm Patricia, and I'm a hacker.", "Hey! I'm Patricia, and I'm a designer.", "Hey! I'm Patricia, and I'm a web developer.", "Hey! I'm Patricia, and I'm a WordPress developer.", "Hey! I'm Patricia, and I love coding."],
+        typeSpeed: 30,
+        backDelay: 500,
+        loop: false,
+        // defaults to false for infinite loop
+        loopCount: false,
+    });
+});
+
+$(document).ready(function() {
+    var slide_index = "";
+
+    $('#fullpage').fullpage({
+        verticalCentered: true,
+        resize : false,
+        anchors: ['Hi', 'About', 'Contact'],
+        sectionsColor : ['#ccc', '#fff'],
+        scrollingSpeed: 550,
+        easing: 'easeInQuart',
+        menu: false,
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom',
+        loopBottom: true,
+        loopTop: false,
+        loopHorizontal: false,
+        autoScrolling: true,
+        scrollOverflow: false,
+        css3: false,
+        paddingTop: '3em',
+        paddingBottom: '10px',
+        normalScrollElements: '#element1, .element2',
+        normalScrollElementTouchThreshold: 5,
+        keyboardScrolling: true,
+        touchSensitivity: 15,
+        continuousVertical: false,
+        animateAnchor: true,
+        sectionSelector: '.section',
+        slideSelector: '.slide',
+
+        onLeave: function(index, nextIndex, direction){
+            //GOING TO ABOUT PAGE
+            if(index == '1' && direction =='down'){
+                $.fn.fullpage.moveTo("About", 1);
+            }
+
+            // else if(index == '3' && direction == 'up'){
+            //     $.fn.fullpage.moveTo("About", 1);
+            // }
+        },
+
+        afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
+
+            if(index == "2" && slideIndex == 0){
+                slide_index = 0;
+            }
+
+            else if(index == "2" && slideIndex == 1){
+                slide_index = 1;
+            }
+
+            else if(index == "2" && slideIndex == 2){
+                slide_index = 2;
+            }
+        },
+
+    });
+
+    $('#bgvid')[0].play();
+
+});
+
+</script>

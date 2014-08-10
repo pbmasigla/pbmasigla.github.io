@@ -1,0 +1,250 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face{
+	font-family: 'Entypo';
+	src:url('Entypo.ttf');
+}
+@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome.eot');
+	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('../fonts/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+
+}
+
+/*
+a:link{
+	color: #04C4A4; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active{
+	color:white;
+}
+
+a:visited{
+	color: #04C4A4; 
+}
+*/
+.container > header {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1.875em 3.125em 1.875em;
+}
+
+.container > header {
+	padding: 2.875em 1.875em 1.875em;
+}
+
+.container > header h1 {
+	font-size: 2.125em;
+	line-height: 1.3;
+	margin: 0;
+	float: left;
+	font-weight: 400;
+}
+
+.container > header span {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding: 0 0 0.6em 0.1em;
+}
+
+.container > header nav {
+	float: right;
+}
+
+.container > header nav a {
+	display: block;
+	float: left;
+	position: relative;
+	width: 2.5em;
+	height: 2.5em;
+	background: #fff;
+	border-radius: 50%;
+	color: transparent;
+	margin: 0 0.1em;
+	border: 4px solid #47a3da;
+	text-indent: -8000px;
+}
+
+.container > header nav a:after {
+	content: attr(data-info);
+	color: #47a3da;
+	position: absolute;
+	width: 600%;
+	top: 120%;
+	text-align: right;
+	right: 0;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.container > header nav a:hover:after {
+	opacity: 1;
+}
+
+.container > header nav a:hover {
+	background: #47a3da;
+}
+
+
+.main-button > section {
+	max-width: 260px;
+	width: 90%;
+	margin: 0 auto;
+	height:40px;
+	width:90px;
+	text-align:center;
+	margin-left:255px;
+}
+
+.main-button > section h2 {
+	font-weight: 300;
+}
+
+.main-button > section button {
+	
+	border: none;
+	padding: 1.5em;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	margin: 10px 0;
+	border-color:white;
+	width:60px;
+	height:60px;
+	text-align:center;
+	border-color: white;
+	text-align:center;
+	vertical-align:middle;
+	line-height:2px;
+	border: 10px;
+
+	
+	background: transparent;
+	/*
+    color: #04C4A4;*/
+    height: 36px; 
+    min-width: 10px;
+    padding: 0px 2px 0 2px;
+    text-align: center;
+    font-family:Entypo;
+    margin:-4px -15px -15px -15px;*/
+   
+}
+
+/*
+.main-button > section button:hover {
+	background: #04C4A4;
+}
+
+.main-button > section button:hover {
+	background: #04C4A4;
+}
+
+.main-button > section button.active {
+	background: #04C4A4;
+	color:white;
+}*/
+
+a.menu:link{
+	color:#8A8A8A;
+	font-family:Entypo;
+	font-size:40px;
+	vertical-align: top;
+}
+
+a.menu:hover{
+	color:#04C4A4;
+}
+a.menu:active{
+	color:#04C4A4;
+}
+
+
+.menuText{
+	font-size:13.4px;
+	vertical-align: top;
+}
+/*
+#showLeft{
+	background:transparent;
+	border:0px;
+	padding: 10px 10px 10px 10px;
+
+}
+
+#showLeft a:hover{
+	background-color:blue;
+	color:white;
+}*/
+
+.icon-drop:before, 
+.icon-arrow-left:before {
+	font-family: 'fontawesome';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 8px;
+}
+
+.container > header nav a:hover:before {
+	color: #fff;
+}
+
+.icon-drop:before {
+	content: "\e000";
+}
+
+.icon-arrow-left:before {
+	content: "\f060";
+}
+
