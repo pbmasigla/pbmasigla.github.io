@@ -120,18 +120,92 @@
   } 
 
 /*PORTFOLIO*/
-  #portfolio{
-/*    background: purple;*/
+  #portfolio_div{
+    top: 0;
+    text-align:center;
   }
 
+  #portfolio_div > h1{
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: BrandonGrotesque-Bold, Futura, Verdana, serif;
+    font-size:40px;
+    font-weight:300;
+    margin-bottom:0px;
+    text-align:center;
+    color:#336699;
+    text-align:center;
+  }
+
+  #portfolio_div > p{
+    font-family: 'Roboto Condensed', serif;
+    font-size: 19px;
+    font-weight:300;
+    margin-top:5px;
+    color: #666666;
+    text-align:center;
+  } 
+
+  #portfolio_div > a{
+    font-family: 'Roboto Condensed', serif;
+    font-size: 19px;
+    font-weight:300;
+    margin-top:5px;
+    color: #666666;
+  } 
 
 /*WORK*/
-  #work{
-/*    background:purple;*/
+  #work_div{
+    top: 0;
   }
+
+  #work_div > h1{
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: BrandonGrotesque-Bold, Futura, Verdana, serif;
+    font-size:40px;
+    font-weight:300;
+    margin-bottom:0px;
+    text-align:center;
+    color:#336699;
+  }
+
+  #work_div > p{
+    text-align:center;
+    font-family: 'Roboto Condensed', serif;
+    font-size: 19px;
+    font-weight:300;
+    margin-top:5px;
+    color: #666666;
+  } 
 
 
 /*CONTACT*/
   #contact{
     background:white;
   }
+
+  #contact_div > h1{
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: BrandonGrotesque-Bold, Futura, Verdana, serif;
+    font-size:40px;
+    font-weight:300;
+    margin-bottom:0px;
+    text-align:center;
+    color:#336699;
+  }
+
+  #contact_div > p{
+    font-family: 'Roboto Condensed', serif;
+    font-size: 19px;
+    font-weight:300;
+    margin-top:5px;
+    color: #666666;
+  } 
+
+  #contact_div > a{
+    text-align:center;
+    font-family: 'Roboto Condensed', serif;
+    font-size: 19px;
+    font-weight:300;
+    margin-top:5px;
+    color: #666666;
+  } 
