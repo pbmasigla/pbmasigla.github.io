@@ -230,12 +230,12 @@
   label {
     display: block;
     float: left;
-    width: 33%;
+    width: 41%;
   }
 
   input, input:focus {
     float: right;
-    width: 66%;
+    width: 58%;
     background: transparent;
     border: none;
     outline: none;
@@ -284,7 +284,7 @@
     color:white;
     font-family: 'Inconsolata' ;
     font-size:15px;
-    width:66%;
+    width:58%;
     text-align:left;
     color: rgb(207, 49, 49);
   }
@@ -295,4 +295,5 @@
     font-size:15px;
     width:100%;
     text-align:center;
+    margin-top:20px;
   }

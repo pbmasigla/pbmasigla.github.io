@@ -86,7 +86,7 @@
                         <div id="window">
                             <form>
                                 <span id="form">
-                                    <label class="">PatriciaMasigla@-bash~$</label> 
+                                    <label class="">pbmasigla.github.io:~ guest$</label> 
                                     <input class="" id="terminal_input" type="text" onkeypress="checkKey();">
                                 </span>
                             </form>
@@ -447,18 +447,17 @@ function checkKey(){
        if(success && logout == false){
             $('#terminal_input').disable(true);
             $('#terminal_input').removeAttr('id');
-            $('#form').append('<label class="">PatriciaMasigla@-bash~$</label> <input class="" id="terminal_input" type="text" onkeypress="checkKey();">');
+            $('#form').append('<label class="">pbmasigla.github.io:~ guest$</label> <input class="" id="terminal_input" type="text" onkeypress="checkKey();">');
        }else if(success == false && logout == false){
             $('#terminal_input').disable(true);
             $('#terminal_input').removeAttr('id');
-            $('#form').append('<label class="">PatriciaMasigla@-bash~$</label><label id="red">&nbsp;Please enter a valid option</label>');
-            $('#form').append('<label class="">PatriciaMasigla@-bash~$</label> <input class="" id="terminal_input" type="text" onkeypress="checkKey();">');
+            $('#form').append('<label class="">pbmasigla.github.io:~ guest$</label><label id="red">&nbsp;Please enter a valid option</label>');
+            $('#form').append('<label class="">pbmasigla.github.io:~ guest$</label> <input class="" id="terminal_input" type="text" onkeypress="checkKey();">');
        }
 
        if(logout){
             $('#terminal_input').disable(true);
             $('#terminal_input').removeAttr('id');
-            $('#form').append('<br><br/>');
             $('#form').append('<label id="logout">Thank you for visiting and I hope to keep in touch!</label>');
        }
 
