@@ -181,6 +181,7 @@
 /*CONTACT*/
   #contact_div{
     top:0;
+    height:100%;
   }
 
   #contact_div > h1{
@@ -192,6 +193,7 @@
     margin-bottom:0px;
     text-align:center;
     color:#336699;
+    text-shadow: 2px 2px #000000;
   }
 
   #contact_div > p{
@@ -199,7 +201,7 @@
     font-size: 17px;
     font-weight:300;
     margin-top:5px;
-    color: #666666;
+    color: #FFFFFF;
   } 
 
   #contact_div > a{
@@ -211,20 +213,13 @@
     color: #FFFFFF;
   } 
 
-
-  #terminal_input{
-    margin-top:155px;
-    width:600px;
-    height:400px;
-  }
-
 /*
 *Console
 */
   #console {
     background-color: #242424;
     /* display: none; */
-    height: 450px;
+    height: 480px;
     margin: 50px 0 -300px;
     width: 650px;
     margin-left: auto;
@@ -279,4 +274,25 @@
     font-weight: 800;
     height: 460px;
     padding:11px;
+  }
+
+  #form > label{
+    height:21px;
+  }
+
+  #red{
+    color:white;
+    font-family: 'Inconsolata' ;
+    font-size:15px;
+    width:66%;
+    text-align:left;
+    color: rgb(207, 49, 49);
+  }
+
+  #logout{
+    color:rgb(5, 209, 38);
+    font-family: 'Inconsolata' ;
+    font-size:15px;
+    width:100%;
+    text-align:center;
   }

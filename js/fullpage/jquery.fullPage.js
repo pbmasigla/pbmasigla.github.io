@@ -912,7 +912,7 @@
 		$(document).on({
 			mouseenter: function(){
 				var tooltip = $(this).data('tooltip');
-				$('<div class="fp-tooltip ' + options.navigationPosition +'">' + tooltip + '</div>').hide().appendTo($(this)).fadeIn(200);
+				$('<div id="change_me"  class="fp-tooltip ' + options.navigationPosition +'" style="color:white">' + tooltip + '</div>').hide().appendTo($(this)).fadeIn(200);
 			},
 			mouseleave: function(){
 				$(this).find('.fp-tooltip').fadeOut().remove();

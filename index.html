@@ -73,13 +73,13 @@
             <div class="section">
                 <div id="contact_div">
                     <h1>Contact Me!</h1>
-                    <p>Hey, let's keep i
+                    <br/>
+                    <p>Hey, let's keep in touch. In the console below, enter any of the following options and press [enter].</p>
+                    <p>Options: email | resume | facebook | twitter | instagram | linkedin | github | logout</p>
                     <!-- <a href="http://www.facebook.com/patricia.masigla">Facebook</a>
                     <a href="http://www.twitter.com/patatohead">Twitter</a>
                     <a href="http://www.instagram.com/therealpatatohead">Instagram</a>
                     <a href="mailto:patricia.masigla@gmail.com">Email</a> -->
-
-                    <br><br/>
 
                     <!-- <textarea id="terminal_input">Enter Data Here:</textarea> -->
                     <div id="console" class="show-for-medium-up">
@@ -87,7 +87,7 @@
                             <form>
                                 <span id="form">
                                     <label class="">PatriciaMasigla@-bash~$</label> 
-                                    <input class="" type="text">
+                                    <input class="" id="terminal_input" type="text" onkeypress="checkKey();">
                                 </span>
                             </form>
 
@@ -367,6 +367,22 @@ $(document).ready(function() {
             // }
         },
 
+        afterLoad: function(anchorLink, index){
+            if(index == "2"){
+                $('#fp-nav li span').css('background', 'transparent');
+                $('#fp-nav li .active span').css('background', '#336699');
+                $('#fp-nav span').css('border', '#336699 1px solid');
+                $('#fp-tooltip').css('color', '#336699');
+            }
+
+           if(index == "1" || index == "3"){
+                $('#fp-nav li span').css('background', 'transparent');
+                $('#fp-nav li .active span').css('background', 'white');
+                $('#fp-nav span').css('border', 'white 1px solid');
+                $('#fp-tooltip').css('color', 'white');
+            }
+        },
+
         afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
 
             if(index == "2" && slideIndex == 0){
@@ -385,7 +401,71 @@ $(document).ready(function() {
     });
 
     $('#bgvid')[0].play();
+    $('#fp-nav li span').css('background', 'transparent');
+    $('#fp-nav li .active span').css('background', 'white');
+    $('#fp-nav span').css('border', 'white 1px solid');
+
+    jQuery.fn.extend({disable: function(state) {return this.each(function() {this.disabled = state;;})}});
 
 });
+
+function checkKey(){
+    var terminal_input = $('#terminal_input').val().toLowerCase();
+    var success = true;
+    var logout = false
+
+    if (event.keyCode == 13) {
+       switch(terminal_input){
+            case 'email':
+                window.open('mailto:patricia.masigla@gmail.com');
+                break;
+            case 'resume':
+                window.open('Patricia Masigla - Resume.pdf');
+                break;
+            case 'facebook':
+                window.open('http://www.facebook.com/patricia.masigla');
+                break;
+            case 'twitter':
+                window.open('http://www.twitter.com/patatohead');
+                break;
+            case 'instagram':
+                window.open('http://www.instagram.com/therealpatatohead');
+                break;
+            case 'linkedin':
+                window.open('https://www.linkedin.com/pub/patricia-masigla/75/875/976');
+                break;
+            case 'github':
+                window.open('http://www.github.com/pbmasigla');
+                break;
+            case 'logout':
+                logout = true;
+                break;
+            default:
+                success = false;
+       }
+
+       if(success && logout == false){
+            $('#terminal_input').disable(true);
+            $('#terminal_input').removeAttr('id');
+            $('#form').append('<label class="">PatriciaMasigla@-bash~$</label> <input class="" id="terminal_input" type="text" onkeypress="checkKey();">');
+       }else if(success == false && logout == false){
+            $('#terminal_input').disable(true);
+            $('#terminal_input').removeAttr('id');
+            $('#form').append('<label class="">PatriciaMasigla@-bash~$</label><label id="red">&nbsp;Please enter a valid option</label>');
+            $('#form').append('<label class="">PatriciaMasigla@-bash~$</label> <input class="" id="terminal_input" type="text" onkeypress="checkKey();">');
+       }
+
+       if(logout){
+            $('#terminal_input').disable(true);
+            $('#terminal_input').removeAttr('id');
+            $('#form').append('<br><br/>');
+            $('#form').append('<label id="logout">Thank you for visiting and I hope to keep in touch!</label>');
+       }
+
+
+    }
+    return false;
+}
+
 
 </script>
