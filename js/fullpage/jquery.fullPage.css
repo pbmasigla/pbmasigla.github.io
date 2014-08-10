@@ -94,7 +94,7 @@ html, body {
     position: fixed;
     z-index: 100;
     margin-top: -32px;
-    top: 50%;
+    top: 10%;
     opacity: 1;
 }
 #fp-nav.right {
@@ -123,8 +123,8 @@ html, body {
 #fp-nav li,
 .fp-slidesNav li {
     display: block;
-    width: 14px;
-    height: 13px;
+    width: 18px;
+    height: 16px;
     margin: 7px;
     position:relative;
 }
@@ -149,8 +149,8 @@ html, body {
 .fp-slidesNav span {
     top: 2px;
     left: 2px;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     border: 1px solid #336699;
     background: rgba(0, 0, 0, 0);
     border-radius: 50%;
