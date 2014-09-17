@@ -93,12 +93,17 @@
 
   #down_arrow > a > span{
     font-size:55px;
-    color:#336699;
     color:white;
   }
 
   #down_arrow > a > span:hover{
     color:#336699;
+  }
+
+  #down_arrow > p{
+    font-size:20px;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
   }
 
 .about_slider{
