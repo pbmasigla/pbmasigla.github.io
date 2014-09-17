@@ -48,6 +48,7 @@
 
   #my_name_is{
   	  margin: auto;
+      margin-top:25%;
     	position: absolute;
     	width:600px;
     	height:37px;
@@ -86,6 +87,19 @@
       100% { opacity:1; }
   }
 
+  #down_arrow{
+    margin-top:44%;
+  }
+
+  #down_arrow > a > span{
+    font-size:55px;
+    color:#336699;
+    color:white;
+  }
+
+  #down_arrow > a > span:hover{
+    color:#336699;
+  }
 
 .about_slider{
     height:100%;
@@ -134,7 +148,7 @@
     text-align:center;
     color:#336699;
     text-align:center;
-    margin-top:-15px;
+    margin-top:-6px;
   }
 
   #portfolio_div > p{
@@ -215,10 +229,14 @@
 /*WORK*/
   #work_div{
     top: 0;
+    margin-top:-30px;
   }
 
-  #work_div > h1{
-    /*font-family: 'Open Sans', sans-sans-serif;*/
+  #work_div > div{
+    padding:7px;
+  }
+
+  .col-md-12 > h2{
     font-family: BrandonGrotesque-Bold, Futura, Verdana, serif;
     font-size:40px;
     font-weight:300;
@@ -227,15 +245,81 @@
     color:#336699;
   }
 
-  #work_div > p{
+  .col-md-4 > h2{
     text-align:center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    font-weight:300;
+    font-size: 20px;
+    font-weight:700;
     margin-top:5px;
-    color: #666666;
-  } 
+    color: #336699;
+  }
 
+  .col-md-4 > h5{
+    font-family: BrandonGrotesque-Bold, Futura, Verdana, serif;
+    color:gray;
+    font-size:13px;
+    text-align:center;
+    margin-top:-2px;
+  }
+
+  #work_icons_left, #work_icons_right{
+    color:#336699;
+  }
+
+  #work_icons_right{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+
+  hr#work_icons_line{
+    border:1px solid rgba(128, 128, 128, 0.4);
+    margin-left: -7%;
+    width: 118%;
+    margin-top: 3px;
+  }
+
+  #work_icons_line_div{
+    height:1px;
+  }
+
+  #work_icons_divs{
+    margin-top:-5px;
+  }
+
+  #year_left{
+    float:left;
+    margin-top: -3px;
+    margin-bottom:10px;
+  }
+
+  #year_right{
+    float:right;
+    margin-top:-3px;
+    left:12px;
+    margin-bottom:10px;
+  }
+
+  #year_right > small{
+    float:right;
+    margin-right:0px;
+    font-family: BrandonGrotesque-Bold, Futura, Verdana, serif;
+    color:#336699;
+  }
+
+  #year_left > small{
+    font-family: BrandonGrotesque-Bold, Futura, Verdana, serif;
+    color:#336699;
+  }
+
+  .col-md-12 > p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    color:#666666;
+  }
 
 /*CONTACT*/
   #contact_div{
@@ -278,7 +362,7 @@
   #console {
     background-color: #242424;
     /* display: none; */
-    height: 480px;
+    height: 350px;
     margin: 50px 0 -300px;
     width: 650px;
     margin-left: auto;
@@ -288,8 +372,11 @@
 
   label {
     display: block;
-    float: left;
     width: 41%;
+  }
+
+  #console > div > form > span > label{
+    margin-bottom:1px;
   }
 
   input, input:focus {
@@ -331,7 +418,7 @@
   #window {
     color: #fff;
     font-weight: 800;
-    height: 460px;
+    height: 350px;
     padding:11px;
   }
 
@@ -356,3 +443,4 @@
     text-align:center;
     margin-top:20px;
   }
+
