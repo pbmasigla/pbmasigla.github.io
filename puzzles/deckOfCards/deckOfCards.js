@@ -50,7 +50,7 @@ var deck;
 				this.deck = sortDeck(this.deck, size);
 				angular.element($("#create_deck_modal")).modal('hide');
 			}else{
-				alert('Size must be less than or equal to 52!');
+				alert('Amount of cards must be less than or equal to 52!');
 			}
 		};
 
