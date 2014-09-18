@@ -12,42 +12,46 @@ var deck;
 
 		//CREATE INITIAL DECK BASED ON SIZE CHOSEN
 		this.createDeck = function(size){
-			this.deck = [];
-			var suits = ['Hearts', 'Trees', 'Stars', 'Towers'];
 
-			for( var i = 0; i < suits.length; i++ ){
-				for( var g = 1; g <= 13; g++ ){
+			if(size <= 52){
+				this.deck = [];
+				var suits = ['Hearts', 'Trees', 'Stars', 'Towers'];
 
-					var card = {};
-					var value = "";
-					var suit = suits[i];
+				for( var i = 0; i < suits.length; i++ ){
+					for( var g = 1; g <= 13; g++ ){
 
-					switch(g){
-						case 1:
-							value = "Ace";
-							break;
-						case 11:
-							value = "Jack";
-							break;
-						case 12:
-							value = "Queen";
-							break;
-						case 13:
-							value = "King";
-							break;
-						default:
-							value = g;
+						var card = {};
+						var value = "";
+						var suit = suits[i];
+
+						switch(g){
+							case 1:
+								value = "Ace";
+								break;
+							case 11:
+								value = "Jack";
+								break;
+							case 12:
+								value = "Queen";
+								break;
+							case 13:
+								value = "King";
+								break;
+							default:
+								value = g;
+						}
+
+						card['value'] = value;
+						card['suit'] = suit;
+						this.deck.push(card);
 					}
-
-					card['value'] = value;
-					card['suit'] = suit;
-					this.deck.push(card);
 				}
+
+				this.deck = sortDeck(this.deck, size);
+				angular.element($("#create_deck_modal")).modal('hide');
+			}else{
+				alert('Size must be less than or equal to 52!');
 			}
-
-			this.deck = sortDeck(this.deck, size);
-			angular.element($("#create_deck_modal")).modal('hide');
-
 		};
 
 		//WHEN SHUFFLE IS CLICKED, CALL SORT FUNCTION
