@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Style-->
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+
+		<!--jQuery-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<!--Bootstrap-->
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+		<!--Angular-->
+		<script type="text/javascript" src="../js/angular.min.js"></script>
+
+		<!--LetterMapper js-->
+		<script type="text/javascript" src="lettermapper.js"></script>
+
+		<title>Letter Mapper Puzzle!</title>
+	</head>
+	<body ng-app="letterMapper" ng-controller="letterMapperController as letterMap">
+		<div class="container">
+			<div class="col-md-6 col-md-offset-3">
+
+				<!--title-->
+				<div class="page-header">
+					<h1><span class="glyphicon glyphicon-tree-conifer"></span>Letter Mapper Puzzle!</h1>
+				</div>
+
+				<div id="problem">
+					<p>
+					<b>Problem</b>
+					<br>
+					Given two words as Strings, determine if they are isomorphic. <br/>
+					<a href="http://algorithmsquestionsforinterviews.blogspot.com/2013/11/isomorphic-strings.html">Click here for full problem</a>.
+					</p>
+				</div>
+
+				<!-- error/success messages -->
+				<div id="messages" class="well" ng-if="letterMap.message === true" >YAY! {{ formData.word1 }} and {{ formData.word2 }} are isomorphic strings <span class="glyphicon glyphicon-thumbs-up"></span></div>
+
+				<div id="messages" class="well" ng-if="letterMap.message === false">BOO! {{ formData.word1 }} and {{ formData.word2 }} are NOT isomorphic strings <span class="glyphicon glyphicon-thumbs-down"></span></div>
+
+				<!--Form-->
+				<form ng-submit="letterMap.checkWords(formData.word1, formData.word2)">
+
+					<!--Word 1-->
+					<div id="word1" class="form-group" ng-class"{ 'has-error' : errorName}">
+						<label>Word 1</label>
+						<input type="text" name="word1" class="form-control" placeholder="Word One" ng-model="formData.word1" required>
+					</div>
+
+					<!--Word 2-->
+					<div id="word2" class="form-group" ng-class"{ 'has-error' : errorName}">
+						<label>Word 2</label>
+						<input type="text" name="word2" class="form-control" placeholder="Word Two" ng-model="formData.word2" required>
+					</div>
+
+					<!--Submit-->
+					<button type="submit" class="btn btn-success btn-lg btn-block">
+						<span class="glyphicon glyphicon-flash"></span> Submit!
+					</button>
+
+				</form>
+
+				<!-- Data being typed -->
+				<pre>Word 1: {{ formData.word1 }}  |  Word 2: {{ formData.word2 }}</pre>
+			</div>
+		</div>
+	</body>
+</html>
