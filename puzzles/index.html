@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Style-->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+		<!--jQuery-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<!--Bootstrap-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+		<!--Angular-->
+		<script type="text/javascript" src="js/angular.min.js"></script>
+
+		<!--Puzzles.js-->
+		<script type="text/javascript" src="js/puzzles.js"></script>
+
+		<title>Patty's Coding Puzzles!</title>
+	</head>
+	<body ng-app="puzzleApp">
+
+		<div class="container">
+			<div class="col-md-12">
+
+				<div class="page-header">
+					<h1><span class="glyphicon glyphicon-gift"></span> Welcome to Patty's Coding Puzzles! <span class="glyphicon glyphicon-gift"></span></h1>
+
+					<p id="description">Hey! This is just a list of random puzzles that I've found online that I've solved and created into a little app. Feel free to check out the raw code!</p>
+				</div>
+
+			</div>
+
+			<div class="col-md-12"  id="puzzles_list_div" ng-controller="puzzleController as puzzle">
+
+				<h2>Puzzles!</h2>
+				<div id="puzzles_list" ng-repeat="puzzles in puzzle.pattypuzzles">
+					{{ puzzles.number }}. <a href="{{puzzles.app_link}}">{{ puzzles.name }} App</a> | <a href="{{ puzzles.raw_link }}">{{ puzzles.name }} Raw Code</a> | <a href="{{ puzzles.problem }}">Puzzle Problem</a>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+</html>
