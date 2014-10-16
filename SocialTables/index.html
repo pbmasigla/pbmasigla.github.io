@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>socialtables/connect-four</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/github-favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="fonts/octicons/octicons.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<!--NAVBAR-->
+	<div id="navbar">
+		<div id="navmenu_container">
+			
+			<!--NAV LEFT ELEMENTS-->
+			<div id="nav_left">
+				<a id="logo_link" href="#"><span class="mega-octicon octicon-mark-github"></span></a>
+				<input type="text" id="search_input" placeholder="Search">
+
+				<a class="nav_links" href="#">Explore</a>
+				<a class="nav_links" href="#">Gist</a>
+				<a class="nav_links" href="#">Blog</a>
+				<a class="nav_links" href="#">Help</a>
+
+				<div id="this_repo_badge">This repository</div>
+			</div>
+
+			<!--NAV RIGHT ELEMENTS-->
+			<div id="nav_right">
+				<div id="user_link">
+					<a class="nav_links" href="#">
+						<img src="img/avatar.png" id="avatar_img">pbmasigla
+					</a>
+				</div>
+				<a class="nav_links" href="#" id="nav_dropdown"><span class="octicon octicon-plus"></span><span class="octicon octicon-triangle-down"></span></a>
+
+				<a class="nav_links" href="#"><span class="octicon octicon-inbox"></span></a>
+				<a class="nav_links" href="#"><span class="octicon octicon-gear"></span></a>
+				<a class="nav_links" href="#"><span class="octicon octicon-sign-out"></span></a>
+			</div>
+
+		</div>
+	</div>
+
+	<!--REPO HEADER-->
+	<div id="repo_header">
+
+		<!--REPO LEFT ELEMENTS-->
+		<div id="repo_left">
+			<span class="mega-octicon octicon-repo"></span>
+			<a class="repo_header_links" href="#">socialtables</a> <span>/</span> <a class="repo_header_links" id="repo_link_right" href="#">connect-four</a>
+		</div>
+
+		<!--REPO RIGHT ELEMENTS-->
+		<div id="repo_right">
+			<a href="#" class="repo_right_button"><span class="octicon octicon-eye"></span>Watch<span class="octicon octicon-triangle-down"></span></a><a href="#" class="repo_right_num">14</a>
+			<a href="#" class="repo_right_button"><span class="octicon octicon-star"></span>Star</a><a href="#" class="repo_right_num">4</a>
+			<a href="#" class="repo_right_button"><span class="octicon octicon-repo-forked"></span>Fork</a><a href="#" class="repo_right_num">18</a>
+		</div>
+
+	</div>
+
+	<hr class="divider">
+
+	<!--MAIN CONTENT-->
+	<div id="main_content">
+
+		<div id="main_content_left">
+
+			<!--LANGUAGE/GIT OVERVIEW-->
+			<div id="language_git_info">
+				<a class="language_git_link" href="#"><span class="octicon octicon-history"></span> <b>35</b> commits</a>
+				<a class="language_git_link" href="#"><span class="octicon octicon-git-branch"></span> <b>2</b> branches</a>
+				<a class="language_git_link" href="#"><span class="octicon octicon-tag"></span> <b>0</b> releases</a>
+				<a class="language_git_link" href="#"><span class="octicon octicon-organization"></span> <b>5</b> contributors</a>
+
+				<div id="language_percent_left"></div>
+				<div id="language_percent_right"></div>
+			</div>
+
+			<!--REPO MENU-->
+			<div id="repo_menu">
+				<a href="#" id="pull_request_green"><span class="octicon octicon-git-compare"></span></a>
+				<div></div>
+				<a class="repo_menu_links" id="repo_menu_link_left" href="#">connect-four</a> / <a class="repo_menu_links"href="#">+</a>
+				<a href="#" id="repo_menu_bars"><span class="octicon octicon-list-unordered"></span></a>
+			</div>
+
+			<!--REPO FILES TOP-->
+			<div id="repo_files_top">
+				<div id="merge_pull_request_row">
+					<a href="#" class="merge_pull_regular">Merge pull request</a> 
+					<a href="#" id="num_13">#13</a> 
+					<a href="#" class="merge_pull_regular"> from rickyvetter/master</a> 
+					<a href="#" id="elipses"><i class="fa fa-ellipsis-h"></i></a>
+				</div>
+
+				<div id="last_authored">
+					<div id="last_authored_left">
+						<img src="img/edkim.jpeg" id="ed_kim">
+						<a href="#">edkim</a>
+						<span>authored on May 29</span>
+					</div>
+
+					<div id="last_authored_right">
+						<a href="#" id="latest_commit">latest commit <span>5235f842a5</span></a>
+						<a href="#" id="copy_sha"><span class="octicon octicon-clippy"></span></a>
+					</div>
+				</div>
+			</div>
+
+			<!--REPO FILES CONTAINER-->
+			<div id="repo_files_container">
+				<table>
+					<tr class="repo_row">
+						<td class="repo_file"><span class="octicon octicon-file-directory"></span><a href="#">public</a></td>
+						<td class="repo_file_descr"><a href="#">refactored horizontal streak checking</a></td>
+						<td class="repo_file_date">5 months ago</td>
+					</tr>
+
+					<tr>
+						<td class="repo_file"><span class="octicon octicon-file-directory"></span><a href="#" >routes</a></td>
+						<td class="repo_file_descr"><a href="#">redundant title</a></td>
+						<td class="repo_file_date">10 months ago</td>
+					</tr>
+
+					<tr>
+						<td class="repo_file"><span class="octicon octicon-file-directory"></span><a href="#" >views</a></td>
+						<td class="repo_file_descr"><a href="#">mobile tweaks, load button, finishing touches</a></td>
+						<td class="repo_file_date">6 months ago</td>
+					</tr>
+
+					<tr>
+						<td class="repo_file"><span class="octicon octicon-file-text"></span><a href="#" >.gitignore</a></td>
+						<td class="repo_file_descr"><a href="#">seeding</a></td>
+						<td class="repo_file_date">10 months ago</td>
+					</tr>
+
+					<tr>
+						<td class="repo_file"><span class="octicon octicon-file-text"></span><a href="#" >LICENSE.txt</a></td>
+						<td class="repo_file_descr"><a href="#">Add license</a></td>
+						<td class="repo_file_date">7 months ago</td>
+					</tr>
+
+					<tr>
+						<td class="repo_file"><span class="octicon octicon-file-text"></span><a href="#" >Procfile</a></td>
+						<td class="repo_file_descr"><a href="#">Make suitable for Heroku</a></td>
+						<td class="repo_file_date">7 months ago</td>
+					</tr>
+
+					<tr>
+						<td class="repo_file"><span class="octicon octicon-file-text"></span><a href="#" >app.js</a></td>
+						<td class="repo_file_descr"><a href="#">seeding</a></td>
+						<td class="repo_file_date">10 months ago</td>
+					</tr>
+
+					<tr>
+						<td class="repo_file"><span class="octicon octicon-file-text"></span><a href="#" >package.json</a></td>
+						<td class="repo_file_descr"><a href="#">Make suitable for Heroku</a></td>
+						<td class="repo_file_date">7 months ago</td>
+					</tr>
+
+					<tr>
+						<td class="repo_file"><span class="octicon octicon-file-text"></span><a href="#" >readme.md</a></td>
+						<td class="repo_file_descr"><a href="#">Update readme.md</a></td>
+						<td class="repo_file_date">5 months ago</td>
+					</tr>
+				</table>
+			</div>
+
+			<!--README-->
+			<div id="readme_container">
+				<div id="readme_header">
+					<span class="octicon octicon-book" id="octicon-book"></span><span id="readme_text">readme.md</span>
+				</div>
+
+				<div id="readme_content">
+
+					<h1>Connect Four</h1>
+					<p>This repo is for people who want to work at Social Tables. And whoever else wants to join in. For those who want to start from the beginning, you should use the <a href="https://github.com/socialtables/connect-four/tree/version1">Gen 1 project</a></p>
+
+					<p>The goal is to make a really sweet Connect Four app. Check out the current version <a href="http://damp-shore-9247.herokuapp.com/">on Heroku</a></p>
+
+					<h2>Issues</h2>
+					<ul>
+						<li>
+							We're now using issues to keep track of improvements we can make to the game. Please refer to those if you want some guidance on what we're looking to add next. Please submit solutions as pull requests.
+						</li>
+					</ul>
+
+					<h2>Game Background</h2>
+					<p>There are several variations of the game, but for this project we're using the basic Hasbro rules</p>
+
+					<h2>Setup Instructions</h2>
+					<ul>
+						<li>
+							We've created the backend server end points for you to interact with.
+						</li>
+
+						<li>
+							Make sure you have node.js installed. Find it here: <a href="http://nodejs.org/">nodejs.org</a>
+						</li>
+
+						<li>
+							Install the dependencies by typing <code>npm install</code> in your terminal inside the project directory.
+						</li>
+
+						<li>
+							Launch the node.js game server by typing <code>node app.js</code> in your terminal.
+						</li>
+
+						<li>
+							Navigate to localhost:3000 to view the Connect 4 app
+						</li>
+
+						<li>
+							Modify the index.ejs file to create the user interface for the game
+						</li>
+					</ul>
+
+					<h2>Basic Functional Requirements (Don't break!)</h2>
+					<p>These were completed by @necaris in Gen 1 of this project.</p>
+					<ul>
+						<li>
+							A user should be able to start a new game
+						</li>
+
+						<li>
+							A user should be presented with a game grid with 6 rows and 7 columns
+						</li>
+
+						<li>
+							Each game should have two players who have different color game pieces
+						</li>
+
+						<li>
+							Players should be able to alternate turns placing their game pieces
+						</li>
+
+						<li>
+							Players should only be able to place game pieces in valid grid slots
+						</li>
+
+						<li>
+							Whenever a player has won the game, a notification message should appear with the results and a way to start a new game
+						</li>
+					</ul>
+
+					<h2>API Basics</h2>
+					<ul>
+						<li>
+							Refer to the code in game.js as your documentation on how to interact with the game server
+						</li>
+
+						<li>
+							Each game has a unique id <code>uuid</code>
+						</li>
+
+						<li>
+							The game board is represented by a 7x6 2D array
+						</li>
+
+						<li>
+							Making a request to <code>/new</code> will give you a new game id and clean grid
+						</li>
+
+						<li>
+							To place a piece, make a POST request to <code>/save/:id</code> and include the entire updated 2D array
+						</li>
+					</ul>
+
+					<h2>Submission</h2>
+					<ul>
+						<li>
+							Create a fork of the repo
+						</li>
+
+						<li>
+							Commit and push your code to your forked repo as many times as you want
+						</li>
+
+						<li>
+							Submit a pull request to the master branch when you're done. Congrats!
+						</li>
+					</ul>
+
+					<h2>Contributors</h2>
+					<ul>
+						<li>
+							mcwhittemore: Game concept and API
+						</li>
+
+						<li>
+							necaris: Version 1 of Functional Game
+						</li>
+
+						<li>
+							jmoss20: Responsive Front-End Design
+						</li>
+
+						<li>
+							edkim: Documentation and Typos
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="footer">
+				<div id="footer_left">
+					<span>&copy; 2014 GitHub, Inc.</span>
+					<a href="#">Terms</a>
+					<a href="#">Privacy</a>
+					<a href="#">Security</a>
+					<a href="#">Contact</a>
+				</div>
+
+				<a href="#" id="footer_logo">
+					<span class="octicon octicon-mark-github"></span>
+				</a>
+
+				<div id="footer_right">
+					<a href="#">Status</a>
+					<a href="#">API</a>
+					<a href="#">Training</a>
+					<a href="#">Shop</a>
+					<a href="#">Blog</a>
+					<a href="#">About</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="main_content_right">
+
+			<!--RIGHT MENU CONTENT-->
+			<div id="right_menu">
+				<ul id="right_menu_list">
+					<li class="inactive" id="first_right_menu">
+						<span>&nbsp;</span>
+					</li>
+
+					<li class="active reg_menu_option">
+						<a href="#"><span class="octicon octicon-code"></span> Code</a>
+					</li>
+
+					<li class="inactive reg_menu_option" id="issues">
+						<a href="#"><span class="octicon octicon-issue-opened"></span> Issues</a>
+						<span class="right_menu_num">4</span>
+					</li>
+
+					<li class="inactive reg_menu_option">
+						<a href="#"><span class="octicon octicon-git-pull-request"></span>Pull Requests</a>
+						<span class="right_menu_num">6</span>
+					</li>
+
+					<li class="inactive reg_menu_option" id="before_hr">
+						<a href="#"><span class="octicon octicon-book"></span>Wiki</a>
+					</li>
+
+					<li id="right_menu_divider">
+						<hr>
+					</li>
+
+					<li class="inactive reg_menu_option" id="after_hr"> 
+						<a href="#"><span class="octicon octicon-pulse"></span>Pulse</a>
+					</li>
+
+					<li class="inactive reg_menu_option" id="last_right_menu">
+						<a href="#"><span class="octicon octicon-graph"></span> Graphs</a>
+					</li>
+				</ul>
+
+				<form id="right_menu_bottom">
+					<p><b>HTTPS</b> clone URL</p>
+					<input type="text" placeholder="https://github.com/socialtables/connect-four.git"><a href="#" class="button_top"><span class="octicon octicon-clippy"></span></a>
+					<p>
+						You can clone with <a href="#">HTTPS</a>, <a href="#">SSH</a>,<br> or <a href="#">Subversion</a>. <a href="#"></a>
+					</p>
+
+					<a href="#" class="button_bottom" id="clone"><span class="octicon octicon-device-desktop"></span> Clone in Desktop</a><br>
+					<a href="#" class="button_bottom" id="zip"><span class="octicon octicon-cloud-download"></span> Download ZIP</a>
+				</form>
+
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>
