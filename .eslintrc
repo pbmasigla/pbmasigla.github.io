@@ -1,0 +1,70 @@
+{
+    "parser": "babel-eslint",
+    "ecmaFeatures": {
+        "modules": true,
+        "jsx": true,
+        "classes": true
+        },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parser": "babel-eslint",
+    "env": {
+        "node": true,
+        "mocha": true,
+        "browser": true
+    },
+    "globals": {
+        "React": true,
+        "ReactDOM": true,
+        "ReactDOMServer": true,
+        "__DEV__": true,
+        "__DEBUG__": true
+    },
+    // 0=OFF, 1=WARN, 2=ERROR
+    "rules": {
+        // ERRORS
+        "curly": 2,
+        "default-case": 2,
+        "dot-notation": 2,
+        "eqeqeq": 2,
+        "no-else-return": 2,
+        "no-eq-null": 2,
+        "no-eval": 2,
+        "brace-style": [2, "1tbs", { "allowSingleLine": false }],
+        "no-catch-shadow": 2,
+        "no-nested-ternary": 2,
+        "no-floating-decimal": 2,
+        "no-self-compare": 2,
+        "no-throw-literal": 2,
+        "quote-props": [2, "as-needed"],
+        "no-void": 2,
+        "wrap-iife": [2, "outside"],
+        "semi": 2,
+        "no-unneeded-ternary": 2,
+        "eol-last": 2,
+        "no-unused-vars": [2, { "args": "none" }],
+
+        	// SPACING
+        "space-after-keywords": 2,
+        "indent": [2, "tab"],
+        "space-before-blocks": [2, "always"],
+        "block-spacing": [2, "always"],
+        "space-before-keywords": [2, "always"],
+        "comma-spacing": [2, {"before": false, "after": true}],
+        "object-curly-spacing": [2, "always"],
+
+        // WARN
+        "quotes": [2, "double", "avoid-escape"],
+        "no-console": 1,
+
+        // OFF
+        "no-inline-comments": 0,
+        "no-param-reassign": 0,
+        "no-undefined": 0,
+        "no-underscore-dangle": 0
+    }
+}
