@@ -13,6 +13,9 @@ const buildEntries = entries => {
 		if (!curr.get("isValid")) {
 			prev.push(<div key={`key_error_${i}`} className="terminal__entry">{`-bash: ${curr.get("value")}: command not found`}</div>);
 		}
+		if (curr.get("showSecret")) {
+			prev.push(<div key={`key_secret_${i}`} className="terminal__entry">{`-Protip: ${curr.get("message")}`}</div>);
+		}
 		return prev;
 	}, []);
 };
@@ -57,10 +60,20 @@ export default class Terminal extends React.Component {
 				isValid = true;
 				this.doOption(terminalOptions[terminalInput.toLowerCase()]);
 			}
-			const newEntries = this.state.entries.push(Map({
+
+			let newMap = Map({
 				value: terminalInput,
+				showSecret: false,
 				isValid
-			}));
+			});
+
+			if (terminalInput.toLowerCase() === "secret") {
+				newMap = newMap.set("message", "Mac: [cmd] + [shift] + [c] or Windows: [ctrl] + [shift] + [c]")
+								.set("showSecret", true)
+								.set("isValue", true);
+			}
+
+			const newEntries = this.state.entries.push(newMap);
 
 			this.setState({
 				entries: newEntries,
@@ -72,13 +85,13 @@ export default class Terminal extends React.Component {
 	doOption(option) {
 		if (option.type === "logout") {
 			this.setState({ loggedOut: true });
-		} else {
+		} else if (option.type !== "secret") {
 			window.open(option.value, "_blank");
 		}
 	}
 
 	render() {
-		const entries = buildEntries(this.state.entries);
+		let entries = buildEntries(this.state.entries);
 		let terminalInputOrEnd = (
 				<div className="terminal__input-container">
 					<div className="terminal__input-label">pbmasigla.github.io:~ guest $</div>
@@ -99,7 +112,7 @@ export default class Terminal extends React.Component {
 				<div className="terminal__header">
 					<div className="terminal__welcome">Let&#39;s Get In Touch!</div>
 					<div className="terminal__options">
-						Options: email | resume | twitter | linkedin | github | logout
+						Options: email | resume | twitter | linkedin | github | logout | secret
 					</div>
 				</div>
 

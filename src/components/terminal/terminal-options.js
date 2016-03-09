@@ -21,6 +21,9 @@ const options = {
 	},
 	logout: {
 		type: "logout"
+	},
+	secret: {
+		type: "secret"
 	}
 };
 
