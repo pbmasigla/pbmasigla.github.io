@@ -31,6 +31,10 @@ export default class Terminal extends React.Component {
 	}
 
 	componentDidMount() {
+		this.focusOnTerminalInput();
+	}
+
+	focusOnTerminalInput() {
 		ReactDOM.findDOMNode(this.refs.terminalInput).focus();
 	}
 
@@ -93,13 +97,16 @@ export default class Terminal extends React.Component {
 		return (
 			<div className="terminal__container">
 				<div className="terminal__header">
-					<div className="terminal__welcome">Let's Get In Touch!</div>
+					<div className="terminal__welcome">Let&#39;s Get In Touch!</div>
 					<div className="terminal__options">
 						Options: email | resume | twitter | linkedin | github | logout
 					</div>
 				</div>
 
-				<div className="terminal__content" ref="terminalContent">
+				<div
+					className="terminal__content"
+					ref="terminalContent"
+					onClick={ () =>  this.focusOnTerminalInput() }>
 					{ entries }
 					{ terminalInputOrEnd }
 				</div>

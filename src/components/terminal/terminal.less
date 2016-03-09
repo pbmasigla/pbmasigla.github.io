@@ -2,13 +2,14 @@
 
 .terminal__container {
 	font-family: "Operator";
-	margin: 35px 0;
+	margin: 2.5% auto;
 
 	.terminal__content {
 		background-color: @dark-gray;
 		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 		color: @off-white;
-		font-size: 14px;
+		cursor: text;
+		font-size: .875em;
 		height: 375px;
 		margin: 0 auto;
 		overflow-x: hidden;
@@ -30,7 +31,7 @@
 	.terminal__goodbye {
 		color: @purple;
 		font-family: "Operator Italic";
-		font-size: 18px;
+		font-size: 1.125em;
 		line-height: 33px;
 		text-align: center;
 	}
@@ -43,7 +44,7 @@
 
 	.terminal__welcome {
 		font-family: "Operator Italic Bold";
-		font-size: 27px;
+		font-size: 1.7em;
 	}
 
 	.terminal__options {
@@ -66,9 +67,35 @@
 		background: transparent;
 		border: none;
 		font-family: "Operator";
-		font-size: 14px;
-		margin-left: 6px;
+		font-size: 1em;
+		margin-top: -1px;
+		margin-left: 5px;
 		outline: none;
 		width: calc(~"100% - 260px");
+	}
+}
+
+/*
+* Media Queries
+*/
+@media (max-width: 600px) {
+	.terminal__container {
+		.terminal__welcome {
+			font-size: 1.5em;
+		}
+
+		.terminal__options {
+			font-size: .9em;
+		}
+
+		.terminal__content {
+			font-size: .7em;
+			height: 56vh;
+			width: 85%;
+		}
+
+		.terminal__input {
+			width: calc(~"100% - 195px");
+		}
 	}
 }
