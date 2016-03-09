@@ -34,7 +34,7 @@
 
 		&.header__left--in-action {
 			.header__propic {
-				webkit-animation: spin 1s cubic-bezier(.67,.34,.51,.75);
+				-webkit-animation: spin 1s cubic-bezier(.67,.34,.51,.75);
 				-moz-animation: spin 1s cubic-bezier(.67,.34,.51,.75);
 				-ms-animation: spin 1s cubic-bezier(.67,.34,.51,.75);
 				animation: spin 1s cubic-bezier(.67,.34,.51,.75);
@@ -110,6 +110,10 @@
 
 		.header__right .header__description {
 			font-size: .8em;
+
+			span {
+				display: block;
+			}
 		}
 	}
 }

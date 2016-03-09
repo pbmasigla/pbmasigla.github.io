@@ -98,7 +98,11 @@ export default class Header extends React.Component {
 					</div>
 
 					<div className="header__right">
-						<div className="header__description">Pun Person / Developer / Engineer</div>
+						<div className="header__description">
+							<span> Pun Person /</span>
+							<span> Developer /</span>
+							<span> Engineer</span>
+						</div>
 					</div>
 				</div>
 				{ warning }
