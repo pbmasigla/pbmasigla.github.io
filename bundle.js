@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f1b6e3296c1799793998"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1ae1f30661018153cb59"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -26714,7 +26714,7 @@
 				});
 	
 				if (terminalInput.toLowerCase() === "secret") {
-					newMap = newMap.set("message", "Mac: [cmd] + [shift] + [c] or Windows: [ctrl] + [shift] + [c]").set("showSecret", true).set("isValue", true);
+					newMap = newMap.set("message", "Mac: [cmd] + [option] + [u] or Windows: [ctrl] + [u]").set("showSecret", true).set("isValue", true);
 				}
 	
 				var newEntries = this.state.entries.push(newMap);

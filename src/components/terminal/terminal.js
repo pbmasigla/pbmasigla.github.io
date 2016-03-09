@@ -68,7 +68,7 @@ export default class Terminal extends React.Component {
 			});
 
 			if (terminalInput.toLowerCase() === "secret") {
-				newMap = newMap.set("message", "Mac: [cmd] + [shift] + [c] or Windows: [ctrl] + [shift] + [c]")
+				newMap = newMap.set("message", "Mac: [cmd] + [option] + [u] or Windows: [ctrl] + [u]")
 								.set("showSecret", true)
 								.set("isValue", true);
 			}
