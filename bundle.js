@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d3ca8ad5595fc3101700"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "f1b6e3296c1799793998"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -7065,7 +7065,7 @@
 	
 	
 	// module
-	exports.push([module.id, "@font-face {\n  font-family: \"Operator\";\n  src: url(\"/assets/operator.otf\");\n  src: url(\"/assets/operator.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator.otf\") format(\"woff2\"), url(\"/assets/operator.otf\") format(\"woff\"), url(\"/assets/operator.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic\";\n  src: url(\"/assets/operator-italic.otf\");\n  src: url(\"/assets/operator-italic.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic.otf\") format(\"woff2\"), url(\"/assets/operator-italic.otf\") format(\"woff\"), url(\"/assets/operator-italic.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic Bold\";\n  src: url(\"/assets/operator-italic-bold.otf\");\n  src: url(\"/assets/operator-italic-bold.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff2\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff\"), url(\"/assets/operator-italic-bold.otf\") format(\"truetype\");\n}\n/*\n\tStyle Variables\n*/\n.footer__container {\n  background-color: #e0e3da;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  bottom: 0;\n  padding: 25px 0;\n  position: absolute;\n  text-align: center;\n  width: 100%;\n}\n.footer__container .footer__content {\n  color: #566270;\n  font-family: \"Operator\";\n}\n", ""]);
+	exports.push([module.id, "@font-face {\n  font-family: \"Operator\";\n  src: url(\"/assets/operator.otf\");\n  src: url(\"/assets/operator.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator.otf\") format(\"woff2\"), url(\"/assets/operator.otf\") format(\"woff\"), url(\"/assets/operator.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic\";\n  src: url(\"/assets/operator-italic.otf\");\n  src: url(\"/assets/operator-italic.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic.otf\") format(\"woff2\"), url(\"/assets/operator-italic.otf\") format(\"woff\"), url(\"/assets/operator-italic.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic Bold\";\n  src: url(\"/assets/operator-italic-bold.otf\");\n  src: url(\"/assets/operator-italic-bold.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff2\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff\"), url(\"/assets/operator-italic-bold.otf\") format(\"truetype\");\n}\n/*\n\tStyle Variables\n*/\n.footer__container {\n  background-color: #e0e3da;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  bottom: 0;\n  padding: 25px 0;\n  position: fixed;\n  text-align: center;\n  width: 100%;\n}\n.footer__container .footer__content {\n  color: #566270;\n  font-family: \"Operator\";\n}\n", ""]);
 	
 	// exports
 
