@@ -38,11 +38,13 @@ export default class Terminal extends React.Component {
 	}
 
 	focusOnTerminalInput() {
-		ReactDOM.findDOMNode(this.refs.terminalInput).focus();
+		if (this.refs.terminalInput) {
+			this.refs.terminalInput.focus();
+		}
 	}
 
 	componentDidUpdate() {
-		const terminalContent = ReactDOM.findDOMNode(this.refs.terminalContent);
+		const terminalContent = this.refs.terminalContent;
 		terminalContent.scrollIntoView();
 	}
 
