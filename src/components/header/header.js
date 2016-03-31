@@ -80,7 +80,7 @@ export default class Header extends React.Component {
 		let warning;
 		if (this.state.showWarning) {
 			warning = (
-				<div>
+				<div className="header__warning-container">
 					<div className="header__triangle"></div>
 					<div className="header__warning">Stop! I'm getting dizzy</div>
 				</div>
@@ -88,21 +88,19 @@ export default class Header extends React.Component {
 		}
 
 		return(
-			<div>
-				<div className="header__container">
-					<div className={ headerLeftClass } onMouseEnter={ () => this.handleHover() }>
-						<div className="header__propic">
-							<img className="header__image" src="/assets/patty.png" />
-						</div>
-						<div className="header__name">{ this.state.name }</div>
+			<div className="header__container">
+				<div className={ headerLeftClass } onMouseEnter={ () => this.handleHover() }>
+					<div className="header__propic">
+						<img className="header__image" src="/assets/patty.png" />
 					</div>
+					<div className="header__name">{ this.state.name }</div>
+				</div>
 
-					<div className="header__right">
-						<div className="header__description">
-							<span> Pun Person /</span>
-							<span> Developer /</span>
-							<span> Engineer</span>
-						</div>
+				<div className="header__right">
+					<div className="header__description">
+						<span> Pun Person /</span>
+						<span> Developer /</span>
+						<span> Engineer</span>
 					</div>
 				</div>
 				{ warning }

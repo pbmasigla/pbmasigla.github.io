@@ -67,19 +67,22 @@
 	width: 0;
 }
 
-.header__warning {
-	align-items: center;
-	background-color: @light-gray;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	color: @dark-gray;
-	display: flex;
-	height: 50px;
-	justify-content: space-around;
-	margin-top: 5px;
-	margin-left: 15px;
+.header__warning-container {
+	left: 7px;
 	position: absolute;
-	text-align: center;
-	width: 240px;
+	top: 70px;
+
+	.header__warning {
+		align-items: center;
+		background-color: @light-gray;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		color: @dark-gray;
+		display: flex;
+		height: 50px;
+		justify-content: space-around;
+		text-align: center;
+		width: 240px;
+	}
 }
 
 /* Spinning the sphere using key frames */

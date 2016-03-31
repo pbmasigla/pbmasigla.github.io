@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "645c94c8cd20552f87d3"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "cb60f630d6b0edc2b774"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -7065,7 +7065,7 @@
 	
 	
 	// module
-	exports.push([module.id, "@font-face {\n  font-family: \"Operator\";\n  src: url(\"/assets/operator.otf\");\n  src: url(\"/assets/operator.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator.otf\") format(\"woff2\"), url(\"/assets/operator.otf\") format(\"woff\"), url(\"/assets/operator.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic\";\n  src: url(\"/assets/operator-italic.otf\");\n  src: url(\"/assets/operator-italic.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic.otf\") format(\"woff2\"), url(\"/assets/operator-italic.otf\") format(\"woff\"), url(\"/assets/operator-italic.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic Bold\";\n  src: url(\"/assets/operator-italic-bold.otf\");\n  src: url(\"/assets/operator-italic-bold.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff2\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff\"), url(\"/assets/operator-italic-bold.otf\") format(\"truetype\");\n}\n/*\n\tStyle Variables\n*/\n.footer__container {\n  background-color: #e0e3da;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  bottom: 0;\n  padding: 25px 0;\n  position: fixed;\n  text-align: center;\n  width: 100%;\n}\n.footer__container .footer__content {\n  color: #566270;\n  font-family: \"Operator\";\n}\n", ""]);
+	exports.push([module.id, "@font-face {\n  font-family: \"Operator\";\n  src: url(\"/assets/operator.otf\");\n  src: url(\"/assets/operator.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator.otf\") format(\"woff2\"), url(\"/assets/operator.otf\") format(\"woff\"), url(\"/assets/operator.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic\";\n  src: url(\"/assets/operator-italic.otf\");\n  src: url(\"/assets/operator-italic.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic.otf\") format(\"woff2\"), url(\"/assets/operator-italic.otf\") format(\"woff\"), url(\"/assets/operator-italic.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic Bold\";\n  src: url(\"/assets/operator-italic-bold.otf\");\n  src: url(\"/assets/operator-italic-bold.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff2\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff\"), url(\"/assets/operator-italic-bold.otf\") format(\"truetype\");\n}\n/*\n\tStyle Variables\n*/\n.footer__container {\n  background-color: #e0e3da;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  padding: 25px 0;\n  text-align: center;\n  width: 100%;\n}\n.footer__container .footer__content {\n  color: #566270;\n  font-family: \"Operator\";\n}\n", ""]);
 	
 	// exports
 
@@ -7079,7 +7079,7 @@
 	
 	
 	// module
-	exports.push([module.id, "@font-face {\n  font-family: \"Operator\";\n  src: url(\"/assets/operator.otf\");\n  src: url(\"/assets/operator.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator.otf\") format(\"woff2\"), url(\"/assets/operator.otf\") format(\"woff\"), url(\"/assets/operator.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic\";\n  src: url(\"/assets/operator-italic.otf\");\n  src: url(\"/assets/operator-italic.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic.otf\") format(\"woff2\"), url(\"/assets/operator-italic.otf\") format(\"woff\"), url(\"/assets/operator-italic.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic Bold\";\n  src: url(\"/assets/operator-italic-bold.otf\");\n  src: url(\"/assets/operator-italic-bold.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff2\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff\"), url(\"/assets/operator-italic-bold.otf\") format(\"truetype\");\n}\n/*\n\tStyle Variables\n*/\n.header__container {\n  align-items: center;\n  background-color: #a593e0;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  display: flex;\n  padding: 10px 20px;\n}\n.header__container .header__left {\n  align-items: center;\n  cursor: pointer;\n  display: flex;\n  width: 50%;\n}\n.header__container .header__left .header__propic {\n  display: flex;\n  margin-right: 5px;\n  -webkit-transition: all 1s ease;\n  transition: all 1s ease;\n}\n.header__container .header__left .header__image {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 100%;\n  height: 50px;\n  width: 50px;\n}\n.header__container .header__left .header__name {\n  color: #fffff3;\n  font-size: 1.56em;\n}\n.header__container .header__left.header__left--in-action .header__propic {\n  -webkit-animation: spin 1s cubic-bezier(0.67, 0.34, 0.51, 0.75);\n  -moz-animation: spin 1s cubic-bezier(0.67, 0.34, 0.51, 0.75);\n  -ms-animation: spin 1s cubic-bezier(0.67, 0.34, 0.51, 0.75);\n  animation: spin 1s cubic-bezier(0.67, 0.34, 0.51, 0.75);\n}\n.header__container .header__right {\n  text-align: right;\n  width: 50%;\n}\n.header__container .header__right .header__description {\n  color: #fffff3;\n  font-size: 1.38em;\n}\n.header__triangle {\n  border-left: 13px solid transparent;\n  border-right: 13px solid transparent;\n  border-bottom: 13px solid #e0e3da;\n  height: 0;\n  margin-left: 32px;\n  margin-top: -8px;\n  position: absolute;\n  z-index: 2;\n  width: 0;\n}\n.header__warning {\n  align-items: center;\n  background-color: #e0e3da;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  color: #566270;\n  display: flex;\n  height: 50px;\n  justify-content: space-around;\n  margin-top: 5px;\n  margin-left: 15px;\n  position: absolute;\n  text-align: center;\n  width: 240px;\n}\n/* Spinning the sphere using key frames */\n@-ms-keyframes spin {\n  from {\n    -ms-transform: rotate(0deg);\n  }\n  to {\n    -ms-transform: rotate(360deg);\n  }\n}\n@-moz-keyframes spin {\n  from {\n    -moz-transform: rotate(0deg);\n  }\n  to {\n    -moz-transform: rotate(360deg);\n  }\n}\n@keyframes spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n@-webkit-keyframes spin {\n  from {\n    -webkit-transform: rotate(0deg);\n  }\n  to {\n    -webkit-transform: rotate(360deg);\n  }\n}\n/*\n* Media Queries\n*/\n@media (max-width: 600px) {\n  .header__container .header__left .header__name {\n    font-size: 1.3em;\n  }\n  .header__container .header__right .header__description {\n    font-size: .8em;\n  }\n  .header__container .header__right .header__description span {\n    display: block;\n  }\n}\n", ""]);
+	exports.push([module.id, "@font-face {\n  font-family: \"Operator\";\n  src: url(\"/assets/operator.otf\");\n  src: url(\"/assets/operator.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator.otf\") format(\"woff2\"), url(\"/assets/operator.otf\") format(\"woff\"), url(\"/assets/operator.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic\";\n  src: url(\"/assets/operator-italic.otf\");\n  src: url(\"/assets/operator-italic.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic.otf\") format(\"woff2\"), url(\"/assets/operator-italic.otf\") format(\"woff\"), url(\"/assets/operator-italic.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic Bold\";\n  src: url(\"/assets/operator-italic-bold.otf\");\n  src: url(\"/assets/operator-italic-bold.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff2\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff\"), url(\"/assets/operator-italic-bold.otf\") format(\"truetype\");\n}\n/*\n\tStyle Variables\n*/\n.header__container {\n  align-items: center;\n  background-color: #a593e0;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  display: flex;\n  padding: 10px 20px;\n}\n.header__container .header__left {\n  align-items: center;\n  cursor: pointer;\n  display: flex;\n  width: 50%;\n}\n.header__container .header__left .header__propic {\n  display: flex;\n  margin-right: 5px;\n  -webkit-transition: all 1s ease;\n  transition: all 1s ease;\n}\n.header__container .header__left .header__image {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  border-radius: 100%;\n  height: 50px;\n  width: 50px;\n}\n.header__container .header__left .header__name {\n  color: #fffff3;\n  font-size: 1.56em;\n}\n.header__container .header__left.header__left--in-action .header__propic {\n  -webkit-animation: spin 1s cubic-bezier(0.67, 0.34, 0.51, 0.75);\n  -moz-animation: spin 1s cubic-bezier(0.67, 0.34, 0.51, 0.75);\n  -ms-animation: spin 1s cubic-bezier(0.67, 0.34, 0.51, 0.75);\n  animation: spin 1s cubic-bezier(0.67, 0.34, 0.51, 0.75);\n}\n.header__container .header__right {\n  text-align: right;\n  width: 50%;\n}\n.header__container .header__right .header__description {\n  color: #fffff3;\n  font-size: 1.38em;\n}\n.header__triangle {\n  border-left: 13px solid transparent;\n  border-right: 13px solid transparent;\n  border-bottom: 13px solid #e0e3da;\n  height: 0;\n  margin-left: 32px;\n  margin-top: -8px;\n  position: absolute;\n  z-index: 2;\n  width: 0;\n}\n.header__warning-container {\n  left: 7px;\n  position: absolute;\n  top: 70px;\n}\n.header__warning-container .header__warning {\n  align-items: center;\n  background-color: #e0e3da;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  color: #566270;\n  display: flex;\n  height: 50px;\n  justify-content: space-around;\n  text-align: center;\n  width: 240px;\n}\n/* Spinning the sphere using key frames */\n@-ms-keyframes spin {\n  from {\n    -ms-transform: rotate(0deg);\n  }\n  to {\n    -ms-transform: rotate(360deg);\n  }\n}\n@-moz-keyframes spin {\n  from {\n    -moz-transform: rotate(0deg);\n  }\n  to {\n    -moz-transform: rotate(360deg);\n  }\n}\n@keyframes spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n@-webkit-keyframes spin {\n  from {\n    -webkit-transform: rotate(0deg);\n  }\n  to {\n    -webkit-transform: rotate(360deg);\n  }\n}\n/*\n* Media Queries\n*/\n@media (max-width: 600px) {\n  .header__container .header__left .header__name {\n    font-size: 1.3em;\n  }\n  .header__container .header__right .header__description {\n    font-size: .8em;\n  }\n  .header__container .header__right .header__description span {\n    display: block;\n  }\n}\n", ""]);
 	
 	// exports
 
@@ -7107,7 +7107,7 @@
 	
 	
 	// module
-	exports.push([module.id, "@font-face {\n  font-family: \"Operator\";\n  src: url(\"/assets/operator.otf\");\n  src: url(\"/assets/operator.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator.otf\") format(\"woff2\"), url(\"/assets/operator.otf\") format(\"woff\"), url(\"/assets/operator.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic\";\n  src: url(\"/assets/operator-italic.otf\");\n  src: url(\"/assets/operator-italic.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic.otf\") format(\"woff2\"), url(\"/assets/operator-italic.otf\") format(\"woff\"), url(\"/assets/operator-italic.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic Bold\";\n  src: url(\"/assets/operator-italic-bold.otf\");\n  src: url(\"/assets/operator-italic-bold.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff2\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff\"), url(\"/assets/operator-italic-bold.otf\") format(\"truetype\");\n}\n/*\n\tStyle Variables\n*/\n.terminal__container {\n  font-family: \"Operator\";\n  margin: 2.5% auto;\n}\n.terminal__container .terminal__content {\n  background-color: #566270;\n  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);\n  color: #fffff3;\n  cursor: text;\n  font-size: .875em;\n  height: 375px;\n  margin: 0 auto;\n  overflow-x: hidden;\n  overflow-y: auto;\n  padding: 2px 10px;\n  width: 65%;\n}\n.terminal__container .terminal__entry {\n  display: flex;\n  line-height: 33px;\n}\n.terminal__container .terminal__entry .terminal__entry-italic {\n  font-family: \"Operator Italic\";\n  margin-right: 6px;\n}\n.terminal__container .terminal__goodbye {\n  color: #a593e0;\n  font-family: \"Operator Italic\";\n  font-size: 1.125em;\n  line-height: 33px;\n  text-align: center;\n}\n.terminal__header {\n  color: #566270;\n  margin-bottom: 20px;\n  text-align: center;\n}\n.terminal__header .terminal__welcome {\n  font-family: \"Operator Italic Bold\";\n  font-size: 1.7em;\n}\n.terminal__header .terminal__options {\n  margin: 10px auto 0;\n  width: 90%;\n}\n.terminal__input-container {\n  align-items: center;\n  display: flex;\n  line-height: 33px;\n}\n.terminal__input-container .terminal__input-label {\n  font-family: \"Operator Italic\";\n}\n.terminal__input-container .terminal__input {\n  color: #fffff3;\n  background: transparent;\n  border: none;\n  font-family: \"Operator\";\n  font-size: 1em;\n  margin-top: -1px;\n  margin-left: 5px;\n  outline: none;\n  width: calc(100% - 260px);\n}\n/*\n* Media Queries\n*/\n@media (max-width: 600px) {\n  .terminal__container .terminal__welcome {\n    font-size: 1.5em;\n  }\n  .terminal__container .terminal__options {\n    font-size: .9em;\n  }\n  .terminal__container .terminal__content {\n    font-size: .7em;\n    height: 56vh;\n    width: 85%;\n  }\n  .terminal__container .terminal__input {\n    width: calc(100% - 195px);\n  }\n}\n", ""]);
+	exports.push([module.id, "@font-face {\n  font-family: \"Operator\";\n  src: url(\"/assets/operator.otf\");\n  src: url(\"/assets/operator.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator.otf\") format(\"woff2\"), url(\"/assets/operator.otf\") format(\"woff\"), url(\"/assets/operator.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic\";\n  src: url(\"/assets/operator-italic.otf\");\n  src: url(\"/assets/operator-italic.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic.otf\") format(\"woff2\"), url(\"/assets/operator-italic.otf\") format(\"woff\"), url(\"/assets/operator-italic.otf\") format(\"truetype\");\n}\n@font-face {\n  font-family: \"Operator Italic Bold\";\n  src: url(\"/assets/operator-italic-bold.otf\");\n  src: url(\"/assets/operator-italic-bold.otf?#iefix\") format(\"embedded-opentype\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff2\"), url(\"/assets/operator-italic-bold.otf\") format(\"woff\"), url(\"/assets/operator-italic-bold.otf\") format(\"truetype\");\n}\n/*\n\tStyle Variables\n*/\n.terminal__container {\n  font-family: \"Operator\";\n  height: calc(100vh - 189px);\n  margin: 25px 0;\n}\n.terminal__container .terminal__content {\n  background-color: #566270;\n  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);\n  color: #fffff3;\n  cursor: text;\n  font-size: .875em;\n  height: calc(100vh - 300px);\n  margin: 0 auto;\n  overflow-x: hidden;\n  overflow-y: auto;\n  padding: 2px 10px;\n  width: 65%;\n}\n.terminal__container .terminal__entry {\n  display: flex;\n  line-height: 33px;\n}\n.terminal__container .terminal__entry .terminal__entry-italic {\n  font-family: \"Operator Italic\";\n  margin-right: 6px;\n}\n.terminal__container .terminal__goodbye {\n  color: #a593e0;\n  font-family: \"Operator Italic\";\n  font-size: 1.125em;\n  line-height: 33px;\n  text-align: center;\n}\n.terminal__header {\n  color: #566270;\n  margin-bottom: 20px;\n  text-align: center;\n}\n.terminal__header .terminal__welcome {\n  font-family: \"Operator Italic Bold\";\n  font-size: 1.7em;\n}\n.terminal__header .terminal__options {\n  margin: 10px auto 0;\n  width: 90%;\n}\n.terminal__input-container {\n  align-items: center;\n  display: flex;\n  line-height: 33px;\n}\n.terminal__input-container .terminal__input-label {\n  font-family: \"Operator Italic\";\n}\n.terminal__input-container .terminal__input {\n  color: #fffff3;\n  background: transparent;\n  border: none;\n  font-family: \"Operator\";\n  font-size: 1em;\n  margin-top: -1px;\n  margin-left: 5px;\n  outline: none;\n  width: calc(100% - 260px);\n}\n/*\n* Media Queries\n*/\n@media (max-width: 600px) {\n  .terminal__container .terminal__welcome {\n    font-size: 1.5em;\n  }\n  .terminal__container .terminal__options {\n    font-size: .9em;\n  }\n  .terminal__container .terminal__content {\n    font-size: .7em;\n    width: 85%;\n  }\n  .terminal__container .terminal__input {\n    width: calc(100% - 195px);\n  }\n}\n", ""]);
 	
 	// exports
 
@@ -26237,14 +26237,14 @@
 	};
 	
 	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-		filename: "/Users/conor/dev/pbmasigla.github.io/src/components/header/header.js",
+		filename: "/Users/patriciamasigla/personal/pbmasigla.github.io/src/components/header/header.js",
 		components: _components,
 		locals: [module],
 		imports: [_react3.default]
 	});
 	
 	var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
-		filename: "/Users/conor/dev/pbmasigla.github.io/src/components/header/header.js",
+		filename: "/Users/patriciamasigla/personal/pbmasigla.github.io/src/components/header/header.js",
 		components: _components,
 		locals: [],
 		imports: [_react3.default, _redboxReact3.default]
@@ -26350,7 +26350,7 @@
 			if (this.state.showWarning) {
 				warning = React.createElement(
 					"div",
-					null,
+					{ className: "header__warning-container" },
 					React.createElement("div", { className: "header__triangle" }),
 					React.createElement(
 						"div",
@@ -26362,47 +26362,43 @@
 	
 			return React.createElement(
 				"div",
-				null,
+				{ className: "header__container" },
 				React.createElement(
 					"div",
-					{ className: "header__container" },
+					{ className: headerLeftClass, onMouseEnter: function onMouseEnter() {
+							return _this4.handleHover();
+						} },
 					React.createElement(
 						"div",
-						{ className: headerLeftClass, onMouseEnter: function onMouseEnter() {
-								return _this4.handleHover();
-							} },
-						React.createElement(
-							"div",
-							{ className: "header__propic" },
-							React.createElement("img", { className: "header__image", src: "/assets/patty.png" })
-						),
-						React.createElement(
-							"div",
-							{ className: "header__name" },
-							this.state.name
-						)
+						{ className: "header__propic" },
+						React.createElement("img", { className: "header__image", src: "/assets/patty.png" })
 					),
 					React.createElement(
 						"div",
-						{ className: "header__right" },
+						{ className: "header__name" },
+						this.state.name
+					)
+				),
+				React.createElement(
+					"div",
+					{ className: "header__right" },
+					React.createElement(
+						"div",
+						{ className: "header__description" },
 						React.createElement(
-							"div",
-							{ className: "header__description" },
-							React.createElement(
-								"span",
-								null,
-								" Pun Person /"
-							),
-							React.createElement(
-								"span",
-								null,
-								" Developer /"
-							),
-							React.createElement(
-								"span",
-								null,
-								" Engineer"
-							)
+							"span",
+							null,
+							" Pun Person /"
+						),
+						React.createElement(
+							"span",
+							null,
+							" Developer /"
+						),
+						React.createElement(
+							"span",
+							null,
+							" Engineer"
 						)
 					)
 				),
@@ -26473,14 +26469,14 @@
 	};
 	
 	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-		filename: "/Users/conor/dev/pbmasigla.github.io/src/components/main.js",
+		filename: "/Users/patriciamasigla/personal/pbmasigla.github.io/src/components/main.js",
 		components: _components,
 		locals: [module],
 		imports: [_react3.default]
 	});
 	
 	var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
-		filename: "/Users/conor/dev/pbmasigla.github.io/src/components/main.js",
+		filename: "/Users/patriciamasigla/personal/pbmasigla.github.io/src/components/main.js",
 		components: _components,
 		locals: [],
 		imports: [_react3.default, _redboxReact3.default]
@@ -26611,14 +26607,14 @@
 	};
 	
 	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-		filename: "/Users/conor/dev/pbmasigla.github.io/src/components/terminal/terminal.js",
+		filename: "/Users/patriciamasigla/personal/pbmasigla.github.io/src/components/terminal/terminal.js",
 		components: _components,
 		locals: [module],
 		imports: [_react3.default]
 	});
 	
 	var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
-		filename: "/Users/conor/dev/pbmasigla.github.io/src/components/terminal/terminal.js",
+		filename: "/Users/patriciamasigla/personal/pbmasigla.github.io/src/components/terminal/terminal.js",
 		components: _components,
 		locals: [],
 		imports: [_react3.default, _redboxReact3.default]
@@ -26854,14 +26850,14 @@
 	};
 	
 	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-		filename: '/Users/conor/dev/pbmasigla.github.io/src/root.js',
+		filename: '/Users/patriciamasigla/personal/pbmasigla.github.io/src/root.js',
 		components: _components,
 		locals: [module],
 		imports: [_react3.default]
 	});
 	
 	var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
-		filename: '/Users/conor/dev/pbmasigla.github.io/src/root.js',
+		filename: '/Users/patriciamasigla/personal/pbmasigla.github.io/src/root.js',
 		components: _components,
 		locals: [],
 		imports: [_react3.default, _redboxReact3.default]
@@ -27082,7 +27078,7 @@
 	// https://github.com/gaearon/react-proxy/issues/50#issuecomment-192928066
 	var allProxies = [];
 	function findProxy(Component) {
-	  var pair = (0, _find2.default)(allProxies, function (_ref) {
+	  var pair = allProxies.find(function (_ref) {
 	    var _ref2 = _slicedToArray(_ref, 1);
 	
 	    var key = _ref2[0];
