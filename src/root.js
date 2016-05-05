@@ -8,7 +8,6 @@ export default class Root extends React.Component {
 		return (
 			<Router history={ history }>
 				<Route path="/" component={ Main } />
-				{/*<Route path="/todos" component={ MyTodos } />*/}
 			</Router>
 		);
 	}
