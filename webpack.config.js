@@ -16,7 +16,7 @@ module.exports = {
 		loaders: [{
 			test: /\.js?$/,
 			exclude: /node_modules/,
-			loaders: ['react-hot', 'babel']
+			loaders: ['babel-loader']
 		},
 		{
 			test: /\.less$/,
@@ -45,6 +45,6 @@ module.exports = {
 		}),
 		new webpack.optimize.OccurenceOrderPlugin(),
 		new webpack.HotModuleReplacementPlugin(),
-		new webpack.NoErrorsPlugin(),
+		new webpack.NoErrorsPlugin()
 	]
 };
