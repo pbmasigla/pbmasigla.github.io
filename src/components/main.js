@@ -3,14 +3,12 @@ import Header from "./header/header";
 import Terminal from "./terminal/terminal";
 import Footer from "./footer/footer";
 
-export default class Main extends React.Component {
-	render() {
-		return (
-			<div>
-				<Header />
-				<Terminal />
-				<Footer />
-			</div>
-		);
-	}
+export default function Main () {
+	return (
+		<div>
+			<Header />
+			<Terminal />
+			<Footer />
+		</div>
+	);
 };
