@@ -6,52 +6,52 @@
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	display: flex;
 	padding: 10px 20px;
+}
 
-	.header__left {
-		align-items: center;
-		cursor: pointer;
-		display: flex;
-		width: 50%;
+.header__left {
+	align-items: center;
+	cursor: pointer;
+	display: flex;
+	width: 50%;
 
+	&.header__left--in-action {
 		.header__propic {
-			display: flex;
-			margin-right: 5px;
-
-			-webkit-transition: all 1s ease;
-			transition: all 1s ease;
-		}
-
-		.header__image {
-			box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-			border-radius: 100%;
-			height: 50px;
-			width: 50px;
-		}
-
-		.header__name {
-			color: @off-white;
-			font-size: 1.56em;
-		}
-
-		&.header__left--in-action {
-			.header__propic {
-				-webkit-animation: spin 1s cubic-bezier(.67,.34,.51,.75);
-				-moz-animation: spin 1s cubic-bezier(.67,.34,.51,.75);
-				-ms-animation: spin 1s cubic-bezier(.67,.34,.51,.75);
-				animation: spin 1s cubic-bezier(.67,.34,.51,.75);
-			}
+			-webkit-animation: spin 1s cubic-bezier(.67,.34,.51,.75);
+			-moz-animation: spin 1s cubic-bezier(.67,.34,.51,.75);
+			-ms-animation: spin 1s cubic-bezier(.67,.34,.51,.75);
+			animation: spin 1s cubic-bezier(.67,.34,.51,.75);
 		}
 	}
+}
 
-	.header__right {
-		text-align: right;
-		width: 50%;
+.header__propic {
+	display: flex;
+	margin-right: 5px;
 
-		.header__description {
-			color: @off-white;
-			font-size: 1.38em;
-		}
-	}
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.header__image {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+}
+
+.header__name {
+	color: @off-white;
+	font-size: 1.56em;
+}
+
+.header__right {
+	text-align: right;
+	width: 50%;
+}
+
+.header__description {
+	color: @off-white;
+	font-size: 1.38em;
 }
 
 
@@ -71,18 +71,18 @@
 	left: 7px;
 	position: absolute;
 	top: 70px;
+}
 
-	.header__warning {
-		align-items: center;
-		background-color: @light-gray;
-		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-		color: @dark-gray;
-		display: flex;
-		height: 50px;
-		justify-content: space-around;
-		text-align: center;
-		width: 240px;
-	}
+.header__warning {
+	align-items: center;
+	background-color: @light-gray;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	color: @dark-gray;
+	display: flex;
+	height: 50px;
+	justify-content: space-around;
+	text-align: center;
+	width: 240px;
 }
 
 /* Spinning the sphere using key frames */
