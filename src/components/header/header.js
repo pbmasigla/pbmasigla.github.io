@@ -14,12 +14,6 @@ export default class Header extends React.Component {
 		this.increaseHoverNum = this.increaseHoverNum.bind(this);
 	}
 
-	randomLetter() {
-		const possibleVals = "-+*/|}{[]~\\\":;?/.><=+-_)(*&^%$#@!)}";
-		let possibleValsArray = possibleVals.split("");
-		const randomCharacter = possibleValsArray.charAt
-	}
-
 	setRandomName(index, randomName) {
 		var self = this;
 		setTimeout( function() {
