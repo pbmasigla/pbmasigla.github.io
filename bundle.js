@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ac12c5d58dcebe88ad59"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "5f593d4e53e47432d904"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -16298,7 +16298,7 @@
 			React.createElement(
 				"div",
 				{ className: "footer__content" },
-				"@PM 2016"
+				"@PM 2017"
 			)
 		);
 	};
