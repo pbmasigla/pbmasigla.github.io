@@ -5,7 +5,7 @@ const options = {
 	},
 	resume: {
 		type: "link",
-		value: "/assets/Patricia Masigla - Resume 2017.pdf"
+		value: "/assets/Patricia Masigla - Resume.pdf"
 	},
 	twitter: {
 		type: "link",
