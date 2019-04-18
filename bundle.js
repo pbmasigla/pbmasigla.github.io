@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "7323e00e6b872ae474f2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "869eb7bafcf4241a1b30"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -16085,7 +16085,7 @@
 			React.createElement(
 				"div",
 				{ className: "footer__content" },
-				"@PM 2017"
+				"@PM 2019"
 			)
 		);
 	};
@@ -16096,7 +16096,7 @@
 			return;
 		}
 	
-		__REACT_HOT_LOADER__.register(Footer, "Footer", "/Users/Patricia/work/pbmasigla.github.io/src/components/footer/footer.js");
+		__REACT_HOT_LOADER__.register(Footer, "Footer", "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/footer/footer.js");
 	}();
 
 	;
@@ -16147,14 +16147,14 @@
 	};
 	
 	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-		filename: "/Users/Patricia/work/pbmasigla.github.io/src/components/header/header.js",
+		filename: "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/header/header.js",
 		components: _components,
 		locals: [module],
 		imports: [_react3.default]
 	});
 	
 	var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
-		filename: "/Users/Patricia/work/pbmasigla.github.io/src/components/header/header.js",
+		filename: "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/header/header.js",
 		components: _components,
 		locals: [],
 		imports: [_react3.default, _redboxReact3.default]
@@ -16318,9 +16318,9 @@
 			return;
 		}
 	
-		__REACT_HOT_LOADER__.register(Header, "Header", "/Users/Patricia/work/pbmasigla.github.io/src/components/header/header.js");
+		__REACT_HOT_LOADER__.register(Header, "Header", "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/header/header.js");
 	
-		__REACT_HOT_LOADER__.register(_default, "default", "/Users/Patricia/work/pbmasigla.github.io/src/components/header/header.js");
+		__REACT_HOT_LOADER__.register(_default, "default", "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/header/header.js");
 	}();
 
 	;
@@ -16367,7 +16367,7 @@
 			return;
 		}
 	
-		__REACT_HOT_LOADER__.register(Main, "Main", "/Users/Patricia/work/pbmasigla.github.io/src/components/main.js");
+		__REACT_HOT_LOADER__.register(Main, "Main", "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/main.js");
 	}();
 
 	;
@@ -16414,14 +16414,14 @@
 	};
 	
 	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-		filename: "/Users/Patricia/work/pbmasigla.github.io/src/components/secret/secret.js",
+		filename: "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/secret/secret.js",
 		components: _components,
 		locals: [module],
 		imports: [_react3.default]
 	});
 	
 	var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
-		filename: "/Users/Patricia/work/pbmasigla.github.io/src/components/secret/secret.js",
+		filename: "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/secret/secret.js",
 		components: _components,
 		locals: [],
 		imports: [_react3.default, _redboxReact3.default]
@@ -16466,9 +16466,9 @@
 			return;
 		}
 	
-		__REACT_HOT_LOADER__.register(Secret, "Secret", "/Users/Patricia/work/pbmasigla.github.io/src/components/secret/secret.js");
+		__REACT_HOT_LOADER__.register(Secret, "Secret", "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/secret/secret.js");
 	
-		__REACT_HOT_LOADER__.register(_default, "default", "/Users/Patricia/work/pbmasigla.github.io/src/components/secret/secret.js");
+		__REACT_HOT_LOADER__.register(_default, "default", "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/secret/secret.js");
 	}();
 
 	;
@@ -16517,7 +16517,7 @@
 			return;
 		}
 	
-		__REACT_HOT_LOADER__.register(options, "options", "/Users/Patricia/work/pbmasigla.github.io/src/components/terminal/terminal-options.js");
+		__REACT_HOT_LOADER__.register(options, "options", "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/terminal/terminal-options.js");
 	}();
 
 	;
@@ -16569,14 +16569,14 @@
 	};
 	
 	var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-		filename: "/Users/Patricia/work/pbmasigla.github.io/src/components/terminal/terminal.js",
+		filename: "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/terminal/terminal.js",
 		components: _components,
 		locals: [module],
 		imports: [_react3.default]
 	});
 	
 	var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
-		filename: "/Users/Patricia/work/pbmasigla.github.io/src/components/terminal/terminal.js",
+		filename: "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/terminal/terminal.js",
 		components: _components,
 		locals: [],
 		imports: [_react3.default, _redboxReact3.default]
@@ -16769,11 +16769,11 @@
 			return;
 		}
 	
-		__REACT_HOT_LOADER__.register(buildEntries, "buildEntries", "/Users/Patricia/work/pbmasigla.github.io/src/components/terminal/terminal.js");
+		__REACT_HOT_LOADER__.register(buildEntries, "buildEntries", "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/terminal/terminal.js");
 	
-		__REACT_HOT_LOADER__.register(Terminal, "Terminal", "/Users/Patricia/work/pbmasigla.github.io/src/components/terminal/terminal.js");
+		__REACT_HOT_LOADER__.register(Terminal, "Terminal", "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/terminal/terminal.js");
 	
-		__REACT_HOT_LOADER__.register(_default, "default", "/Users/Patricia/work/pbmasigla.github.io/src/components/terminal/terminal.js");
+		__REACT_HOT_LOADER__.register(_default, "default", "/Users/patriciamasigla/Work/pbmasigla.github.io/src/components/terminal/terminal.js");
 	}();
 
 	;
@@ -16829,7 +16829,7 @@
 			return;
 		}
 	
-		__REACT_HOT_LOADER__.register(Root, 'Root', '/Users/Patricia/work/pbmasigla.github.io/src/root.js');
+		__REACT_HOT_LOADER__.register(Root, 'Root', '/Users/patriciamasigla/Work/pbmasigla.github.io/src/root.js');
 	}();
 
 	;
