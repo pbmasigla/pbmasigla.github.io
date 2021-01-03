@@ -85,7 +85,7 @@ export default class Header extends React.Component {
 			<div className="header__container">
 				<div className={ headerLeftClass } onMouseEnter={ () => this.handleHover() }>
 					<div className="header__propic">
-						<img className="header__image" src="/assets/patty.jpg" />
+						<img className="header__image" src="/assets/patty.png" />
 					</div>
 					<div className="header__name">{ this.state.name }</div>
 				</div>
