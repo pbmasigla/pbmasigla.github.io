@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  font-family: "Operator";
+  font-style: normal;
   height: calc(100vh - 189px);
   margin: 25px 0;
   width: 100%;
@@ -34,13 +34,13 @@ const Entry = styled.div`
 `;
 
 const ItalicEntry = styled.div`
-  font-family: "Operator Italic";
+  font-style: italic;
   margin-right: 6px;
 `;
 
 const Goodbye = styled.div`
   color: var(--purple);
-  font-family: "Operator Italic";
+  font-style: italic;
   font-size: 1.125em;
   line-height: 33px;
   text-align: center;
@@ -53,7 +53,8 @@ const Header = styled.div`
 `;
 
 const Welcome = styled.div`
-  font-family: "Operator Italic Bold";
+  font-style: italic;
+  font-weight: bold;
   font-size: 1.7em;
 
   @media (max-width: 600px) {
@@ -93,14 +94,15 @@ const InputContainer = styled.div`
 `;
 
 const InputLabel = styled.div`
-  font-family: "Operator Italic";
+  font-style: italic;
 `;
 
 const Input = styled.input`
   background: transparent;
   border: none;
   color: var(--off-white);
-  font-family: "Operator";
+  font-style: normal;
+  font-family: "Space Mono", monospace;
   font-size: 1em;
   font-weight: bold;
   margin-left: 5px;

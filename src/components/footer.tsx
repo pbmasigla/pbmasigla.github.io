@@ -13,7 +13,8 @@ const Container = styled.div`
 
 const Content = styled.div`
   color: var(--dark-gray);
-  font-family: "Operator";
+  font-style: normal;
+  font-weight: bold;
 `;
 
 const Footer = () => (
