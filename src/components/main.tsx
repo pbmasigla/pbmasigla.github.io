@@ -10,7 +10,8 @@ const Container = styled.div`
   background-color: var(--off-white);
   display: flex;
   flex-direction: column;
-  font-family: "Operator Italic";
+  font-family: "Space Mono", monospace;
+  font-style: italic;
   height: 100vh;
   justify-content: space-between;
   margin: 0;
