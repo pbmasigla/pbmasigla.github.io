@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4730fd77.css",
+    "main.js": "/static/js/main.d02bc3d3.js",
+    "static/js/787.deeec6c3.chunk.js": "/static/js/787.deeec6c3.chunk.js",
+    "static/media/operator-italic-bold.otf": "/static/media/operator-italic-bold.63d1a8c2a75059153a7d.otf",
+    "static/media/operator-italic.otf": "/static/media/operator-italic.046c7ee1441b47eb6225.otf",
+    "static/media/operator.otf": "/static/media/operator.90f738072707e49088fd.otf",
+    "index.html": "/index.html",
+    "main.4730fd77.css.map": "/static/css/main.4730fd77.css.map",
+    "main.d02bc3d3.js.map": "/static/js/main.d02bc3d3.js.map",
+    "787.deeec6c3.chunk.js.map": "/static/js/787.deeec6c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4730fd77.css",
+    "static/js/main.d02bc3d3.js"
+  ]
+}
