@@ -15,10 +15,12 @@ const HeaderLeft = styled.div`
   align-items: center;
   cursor: pointer;
   display: flex;
+  font-weight: bold;
   width: 50%;
 `;
 
 const HeaderRight = styled.div`
+  font-weight: bold;
   text-align: right;
   width: 50%;
 `;
