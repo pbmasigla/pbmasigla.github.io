@@ -64,8 +64,9 @@ const Welcome = styled.div`
 const Options = styled.div`
   display: flex;
   flex-wrap: wrap;
+  font-weight: bold;
   justify-content: center;
-  margin: 10px auto 0;
+  margin: 16px auto 0;
   width: 90%;
 
   @media (max-width: 600px) {
