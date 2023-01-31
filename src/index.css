@@ -1,28 +1,28 @@
 @font-face {
 	font-family: "Operator";
-	src: url("/assets/operator.otf");
-	src: url("/assets/operator.otf?#iefix") format("embedded-opentype"),
-		url("/assets/operator.otf") format("woff2"),
-		url("/assets/operator.otf") format("woff"),
-		url("/assets/operator.otf")  format("truetype");
+	src: url("../assets/operator.otf");
+	src: url("../assets/operator.otf?#iefix") format("embedded-opentype"),
+		url("../assets/operator.otf") format("woff2"),
+		url("../assets/operator.otf") format("woff"),
+		url("../assets/operator.otf")  format("truetype");
 }
 
 @font-face {
 	font-family: "Operator Italic";
-	src: url("/assets/operator-italic.otf");
-	src: url("/assets/operator-italic.otf?#iefix") format("embedded-opentype"),
-		url("/assets/operator-italic.otf") format("woff2"),
-		url("/assets/operator-italic.otf") format("woff"),
-		url("/assets/operator-italic.otf")  format("truetype");
+	src: url("../assets/operator-italic.otf");
+	src: url("../assets/operator-italic.otf?#iefix") format("embedded-opentype"),
+		url("../assets/operator-italic.otf") format("woff2"),
+		url("../assets/operator-italic.otf") format("woff"),
+		url("../assets/operator-italic.otf")  format("truetype");
 }
 
 @font-face {
 	font-family: "Operator Italic Bold";
-	src: url("/assets/operator-italic-bold.otf");
-	src: url("/assets/operator-italic-bold.otf?#iefix") format("embedded-opentype"),
-		url("/assets/operator-italic-bold.otf") format("woff2"),
-		url("/assets/operator-italic-bold.otf") format("woff"),
-		url("/assets/operator-italic-bold.otf")  format("truetype");
+	src: url("../assets/operator-italic-bold.otf");
+	src: url("../assets/operator-italic-bold.otf?#iefix") format("embedded-opentype"),
+		url("../assets/operator-italic-bold.otf") format("woff2"),
+		url("../assets/operator-italic-bold.otf") format("woff"),
+		url("../assets/operator-italic-bold.otf")  format("truetype");
 }
 /*
 	Style Variables
