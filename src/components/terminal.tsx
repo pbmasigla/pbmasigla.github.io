@@ -30,17 +30,23 @@ const Content = styled.div`
 const Entry = styled.div`
   display: flex;
   line-height: 33px;
-  font-weight: bold;
 `;
 
 const ItalicEntry = styled.div`
   font-style: italic;
+  font-weight: bold;
   margin-right: 6px;
+  min-width: 260px;
+
+  @media (max-width: 600px) {
+    min-width: 210px;
+  }
 `;
 
 const Goodbye = styled.div`
   color: var(--purple);
   font-style: italic;
+  font-weight: bold;
   font-size: 1.125em;
   line-height: 33px;
   text-align: center;
@@ -80,6 +86,12 @@ const Option = styled.div`
   display: flex;
   margin-bottom: 8px;
   margin-left: 16px;
+
+  @media (max-width: 600px) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 `;
 
 const Divider = styled.div`
@@ -90,11 +102,16 @@ const InputContainer = styled.div`
   align-items: center;
   display: flex;
   line-height: 33px;
-  font-weight: bold;
 `;
 
 const InputLabel = styled.div`
   font-style: italic;
+  font-weight: bold;
+  min-width: 260px;
+
+  @media (max-width: 600px) {
+    min-width: 210px;
+  }
 `;
 
 const Input = styled.input`
@@ -104,14 +121,13 @@ const Input = styled.input`
   font-style: normal;
   font-family: "Space Mono", monospace;
   font-size: 1em;
-  font-weight: bold;
   margin-left: 5px;
   margin-top: -1px;
   outline: none;
   width: calc(100% - 260px);
 
   @media (max-width: 600px) {
-    width: calc(100% - 195px);
+    width: calc(100% - 210px);
   }
 `;
 
